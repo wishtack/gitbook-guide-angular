@@ -1,7 +1,3 @@
----
-description:
----
-
 # Le Guide Angular par Wishtack
 
 Après 5 ans de développement d'applications AngularJS / Angular, d'animation de formations _\(Angular 2 et + depuis la première release candidate de mai 2016\)_ et d'accompagnement d'entreprises dans leurs développements, nous avons décidé de produire cet ouvrage gratuit afin de partager notre expérience avec la communauté Angular.
