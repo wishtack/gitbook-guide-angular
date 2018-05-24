@@ -1,5 +1,5 @@
 ---
-description: 'Work In Progress: 28%. First release estimate: May 15th 2018'
+description:
 ---
 
 # Le Guide Angular par Wishtack
