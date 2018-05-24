@@ -103,7 +103,7 @@
       * [Lettable Operators vs Legacy Methods](angular/observables/operateurs/lettable-operators-vs-legacy-methods.md)
       * [map](angular/observables/operateurs/map.md)
       * [filter](angular/observables/operateurs/filter.md)
-      * [mergeMap & switchMap](angular/observables/operateurs/mergemap-et-switchmap.md)
+      * [mergeMap & switchMap](angular/observables/operateurs/mergemap-and-switchmap.md)
       * [shareReplay](angular/observables/operateurs/sharereplay.md)
       * [buffer](angular/observables/operateurs/buffer.md)
       * [debounceTime](angular/observables/operateurs/debouncetime.md)
