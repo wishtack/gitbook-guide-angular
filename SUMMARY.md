@@ -133,8 +133,7 @@
     * [Route Guards](angular/routing/route-guards.md)
   * [Testing](angular/testing/README.md)
     * [Unit-Testing](angular/testing/unit-testing/README.md)
-      * Jasmine
-      * Jasmine Spies
+      * [Jasmine](angular/testing/unit-testing/jasmine.md)
       * Unit-Test Synchrone
       * Unit-Test Asynchrone
       * Unit-Test d'un Service
