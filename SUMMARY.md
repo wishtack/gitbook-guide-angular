@@ -134,7 +134,7 @@
   * [Testing](angular/testing/README.md)
     * [Unit-Testing](angular/testing/unit-testing/README.md)
       * [Jasmine](angular/testing/unit-testing/jasmine.md)
-      * Unit-Test Synchrone
+      * [Unit-Test Synchrone](angular/testing/unit-testing/unit-test-synchrone.md)
       * Unit-Test Asynchrone
       * Unit-Test d'un Service
       * Unit-Test d'un Composant
