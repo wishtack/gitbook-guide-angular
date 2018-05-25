@@ -77,6 +77,28 @@ export class NotImplementedError extends Exception {
 
 ### 2. Implémentation du Test
 
+{% code-tabs %}
+{% code-tabs-item title="calculator.spec.ts" %}
+```typescript
+describe('Calculator', () => {
+
+    it('should evaluate 2 + 3 + 4 to 9', () => {
+
+        const calculator = new Calculator();
+
+        expect(calculator.evaluate('2 + 3 + 4')).toEqual(9);
+
+    });
+
+});
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**Un test désactivé sera** tout de même **compilé** par TypeScript.
+
+Grâce à l'IDE, on peut générer les classes et fonctions sans les implémenter.
+
 
 
 ### 3. Implémentation de la Fonctionnalité
