@@ -31,7 +31,7 @@ Contrairement à des spécifications ou documentations, les tests ont l'avantage
 
 Nous aborderons ici les deux principales familles de tests Angular suivantes :
 
-{% page-ref page="unit-testing.md" %}
+{% page-ref page="unit-testing/" %}
 
 {% page-ref page="end-to-end.md" %}
 

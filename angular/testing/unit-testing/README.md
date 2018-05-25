@@ -2,11 +2,11 @@
 
 ## Configuration
 
-Grâce à [Angular CLI](../../tools/angular-cli.md), **tous les outils** nécessaires à l'implémentation et l'exécution des tests unitaires **sont installés et pré-configurés** dès la création de l'application. Cf. fichier `karma.conf.js`.
+Grâce à [Angular CLI](../../../tools/angular-cli.md), **tous les outils** nécessaires à l'implémentation et l'exécution des tests unitaires **sont installés et pré-configurés** dès la création de l'application. Cf. fichier `karma.conf.js`.
 
 ## Exécution des Tests
 
-La commande **`yarn test`** permet de déclencher la commande [Angular CLI](../../tools/angular-cli.md) **`ng test --watch`**.
+La commande **`yarn test`** permet de déclencher la commande [Angular CLI](../../../tools/angular-cli.md) **`ng test --watch`**.
 
 {% hint style="info" %}
 L'option `--watch` permet de relancer les tests unitaires **à chaque changement dans le code**.
