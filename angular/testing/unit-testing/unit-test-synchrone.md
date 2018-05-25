@@ -34,9 +34,3 @@ describe('Calculator', () => {
 
 ![Output HTML](../../../.gitbook/assets/karma-output-html.png)
 
-## L'approche T.D.D. _\(Test-Driven Development\)_
-
-### 1. Définition du test
-
-
-
