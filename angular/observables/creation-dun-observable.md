@@ -34,7 +34,7 @@ data$.subscribe({
 DONE!
 ```
 
-Vous remarquerez quelques similitudes avec [la création d'une `Promise`](../callbackhell-vs.-promise-vs.-async-await/promise.md).  
+Vous remarquerez quelques similitudes avec [la création d'une `Promise`](../callback-hell-vs.-promise-vs.-async-await/promise.md).  
 Le duo de paramètres `resolve` et `reject` est remplacé par un objet `Observer` disposant des méthodes `next`,  `error`,  `complete`.
 
 {% hint style="danger" %}

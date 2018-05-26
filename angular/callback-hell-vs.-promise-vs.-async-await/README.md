@@ -1,4 +1,4 @@
-# CallbackHell vs. Promise vs. Async / Await
+# Callback Hell vs. Promise vs. Async / Await
 
 Dans un univers asynchrone, nous sommes amenés à utiliser des fonction de "callback" pour être informé du résultat du traitement.
 
