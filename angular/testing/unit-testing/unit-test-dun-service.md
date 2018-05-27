@@ -2,6 +2,8 @@
 
 Il serait dommage de ne pas profiter de la [Dependency Injection](../../dependency-injection/) lors de l'implémentation des tests unitaire.
 
+## `inject`
+
 Grâce à la fonction `inject` _\(du module `@angular/core/testing`\),_ il est possible d'injecter des services dans les tests unitaire.
 
 Cette fonction prend deux paramètres :
@@ -58,4 +60,8 @@ describe('PickyWeatherStation', () => {
 {% hint style="success" %}
 La fonction `inject` peut être utilisée **directement autour de la fonction de "spec"** mais il est généralement plus simple d'ajouter un **`beforeEach` pour chaque service** afin d'éviter les problèmes liés à l'ordre des tokens d'injection et le refactoring en général.
 {% endhint %}
+
+## `TestBed.get`
+
+
 
