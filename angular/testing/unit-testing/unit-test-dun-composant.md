@@ -54,7 +54,15 @@ describe('BookPreviewComponent', () => {
 Lors de la configuration du `TestBed`, **il est préférable d'importer le module contenant le composant à tester** que de redéclarer le composant et réimporter ses dépendances.
 {% endhint %}
 
-{% hint style="info" %}
-Pour déclencher des actions DOM, 
+{% hint style="warning" %}
+Pour déclencher des événements sur le DOM _\(e.g. : changement d'un input de formulaire\)_, il faut utiliser la méthode native `dispatchEvent`.
+
+```typescript
+const input: HTMLInputElement = debugElement.nativeElement.querySelector('input');
+input.value = 'test';
+input.dispatchEvent(new Event('input'));
+```
+
+N'oubliez pas d'**appeler la méthode `detectChanges` dès l'instanciation du composant** pour initialiser le formulaire et permettre à Angular d'ajouter les bons listeners etc...
 {% endhint %}
 
