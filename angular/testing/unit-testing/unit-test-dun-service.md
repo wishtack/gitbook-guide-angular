@@ -2,9 +2,45 @@
 
 Il serait dommage de ne pas profiter de la [Dependency Injection](../../dependency-injection/) lors de l'implémentation des tests unitaire.
 
-## `inject`
+## `TestBed.get` 👍
 
-Grâce à la fonction `inject` _\(du module `@angular/core/testing`\),_ il est possible d'injecter des services dans les tests unitaire.
+La méthode statique **`TestBed.get`** permet d'**injecter les services** dans les tests unitaires.
+
+```typescript
+describe('PickyWeatherStation', () => {
+
+    it('should give temperature', fakeAsync(() => {
+
+        const weatherStation: PickyWeatherStation = TestBed.get(PickyWeatherStation);
+
+        let temperature;
+
+        weatherStation.getTemperature('Lyon')
+            .subscribe(_temperature => temperature = _temperature);
+
+        expect(temperature).toBe(42);
+
+    }));
+
+});
+```
+
+{% hint style="success" %}
+Pour éviter de récupérer l'instance dans chaque "spec", pensez à utiliser la fonction `beforeEach`!
+
+```typescript
+let weatherStation: PickyWeatherStation;
+beforeEach(() => weatherStation = TestBed.get(PickyWeatherStation));
+```
+{% endhint %}
+
+Pensez à définir un "Live Template" dans l'IDE.
+
+![Angular Test Injection Live Template](../../../.gitbook/assets/angular-inject-live-template.gif)
+
+## `inject` 👎
+
+La fonction `inject` _\(du module `@angular/core/testing`\)_ permet également d'injecter des services dans les tests unitaire.
 
 Cette fonction prend deux paramètres :
 
@@ -57,11 +93,7 @@ describe('PickyWeatherStation', () => {
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-{% hint style="success" %}
+{% hint style="info" %}
 La fonction `inject` peut être utilisée **directement autour de la fonction de "spec"** mais il est généralement plus simple d'ajouter un **`beforeEach` pour chaque service** afin d'éviter les problèmes liés à l'ordre des tokens d'injection et le refactoring en général.
 {% endhint %}
-
-## `TestBed.get`
-
-
 
