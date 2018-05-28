@@ -140,6 +140,7 @@
       * [TestBed](angular/testing/unit-testing/testbed.md)
       * [Unit-Test d'un Service](angular/testing/unit-testing/unit-test-dun-service.md)
       * [Unit-Test d'un Composant](angular/testing/unit-testing/unit-test-dun-composant.md)
+      * [Unit-Test et Spies](angular/testing/unit-testing/unit-test-et-spies.md)
       * Unit-Test et HttpClient
     * [End-to-End](angular/testing/end-to-end.md)
   * [Sécurité](angular/securite.md)
