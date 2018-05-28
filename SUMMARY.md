@@ -141,7 +141,7 @@
       * [Unit-Test d'un Service](angular/testing/unit-testing/unit-test-dun-service.md)
       * [Unit-Test d'un Composant](angular/testing/unit-testing/unit-test-dun-composant.md)
       * [Unit-Test et Spies](angular/testing/unit-testing/unit-test-et-spies.md)
-      * Unit-Test et HttpClient
+      * [Unit-Test et HttpClient](angular/testing/unit-testing/unit-test-et-httpclient.md)
     * [End-to-End](angular/testing/end-to-end.md)
   * [Sécurité](angular/securite.md)
   * [Animation](angular/animation.md)
