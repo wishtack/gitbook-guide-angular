@@ -10,7 +10,7 @@ Après 5 ans de développement d'applications AngularJS / Angular, d'animation d
 * Répondre aux besoins des **développeurs "Enterprise"**.
 * **Regrouper** l'information.
 * Produire un **guide** **gratuit**, **à jour** et **communautaire.**
-  * N'hésitez donc pas à nous envoyer vos Pull Requests sur : [https://github.com/wishtack/gitbook-angular](https://github.com/wishtack/gitbook-angular)
+  * N'hésitez donc pas à nous envoyer vos Pull Requests sur : [https://github.com/wishtack/gitbook-guide-angular](https://github.com/wishtack/gitbook-guide-angular)
 
 ## Copyright
 
