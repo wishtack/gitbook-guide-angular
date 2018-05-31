@@ -35,7 +35,49 @@ L'`unsubscribe` se fait généralement :
 * lors de la destruction d'un composant via le "lifecycle hook" **`ngOnDestroy`**,
 * ou lorsqu'un `Observable` doit en remplacer un autre _\(e.g. : lancement d'une nouvelle recherche par un utilisateur ou rafraichissement du contenu\)_.
 
-Dans certains cas, nous préférons l'utilisation du "pipe" `async` que nous verrons plus tard ou alors des "helpers" tels que celui-ci : [https://github.com/wishtack/wt-angular-auth-demo/blob/master/src/app/helpers/subscription-garbage-collector.ts](https://github.com/wishtack/wt-angular-auth-demo/blob/master/src/app/helpers/subscription-garbage-collector.ts)
+Dans certains cas, nous préférons l'utilisation du "pipe" `async` que nous verrons plus tard ou alors des "helpers" tels que **Rx-Scavenger**.
 
+## Rx-Scavenger
 
+[Rx-Scavenger](https://github.com/wishtack/wishtack-steroids/tree/master/packages/rx-scavenger) est un "Garbage Collector" de Subscription RxJS pour Angular.
+
+[https://github.com/wishtack/wishtack-steroids/tree/master/packages/rx-scavenger](https://github.com/wishtack/wishtack-steroids/tree/master/packages/rx-scavenger)
+
+Il permet d'unsubscribe automatiquement au remplacement d'une subscription ou à la destruction d'un composant.
+
+```bash
+yarn add @wishtack/rx-scavenger
+```
+
+```typescript
+import { Scavenger } from 'rx-scavenger';
+
+@Component({
+    ...
+})
+export class WeatherComponent implements OnDestroy, OnInit {
+    
+    private _scavenger = new Scavenger(this);
+    
+    constructor(private _weatherStation: WeatherStation) {
+    }
+    
+    ngOnInit() {
+        
+        this._weatherStation
+            .getWeather('Lyon')
+            .pipe(
+                this._scavenger.collect()        
+            )
+            .subscribe(weather => {
+                ...
+            });
+        
+    }
+    
+    ngOnDestroy() {
+    }
+    
+}
+```
 
