@@ -1,6 +1,6 @@
 # "Single-Threaded" donc Asynchrone
 
-## Mutli-thread vs mono-thread
+## Multi-thread vs mono-thread
 
 Dans un univers data-driven synchrone et "multi-threaded"...
 
