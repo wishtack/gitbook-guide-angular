@@ -2,7 +2,7 @@
 
 * [Le Guide Angular par Wishtack](README.md)
 * [Pourquoi Angular ?](pourquoi-angular.md)
-* ECMAScript 6+
+* [ECMAScript 6+](ecmascript-6+/README.md)
   * [Un Peu d'Histoire](ecmascript-6+/un-peu-dhistoire.md)
   * [Propriétés du Langage](ecmascript-6+/proprietes-du-langage.md)
   * ["Single-Threaded" donc Asynchrone](ecmascript-6+/single-threaded-donc-asynchrone.md)
@@ -11,14 +11,14 @@
   * [this & "binding"](ecmascript-6+/this-and-binding.md)
   * [Arrow Functions](ecmascript-6+/arrow-functions.md)
   * [Template Strings](ecmascript-6+/template-strings.md)
-  * Syntactic Sugar
+  * [Syntactic Sugar](ecmascript-6+/syntactic-sugar/README.md)
     * [Spread](ecmascript-6+/syntactic-sugar/spread.md)
     * [Destructuring](ecmascript-6+/syntactic-sugar/destructuring.md)
     * [Rest](ecmascript-6+/syntactic-sugar/rest.md)
     * [Object Literal Property Value Shorthand](ecmascript-6+/syntactic-sugar/object-literal-property-value-shorthand.md)
   * [Named Parameters](ecmascript-6+/named-parameters.md)
   * [Compatibilité](ecmascript-6+/compatibilite.md)
-* TypeScript
+* [TypeScript](typescript/README.md)
   * [Pourquoi TypeScript ?](typescript/pourquoi-typescript.md)
   * [De l'ECMAScript au TypeScript](typescript/de-lecmascript-au-typescript.md)
   * [Visibilité des Propriétés](typescript/visibilite-des-proprietes.md)
@@ -27,7 +27,7 @@
   * [Interfaces](typescript/interfaces.md)
   * [Inference](typescript/inference.md)
   * [Duck Typing](typescript/duck-typing.md)
-  * Duck Typing Patterns
+  * [Duck Typing Patterns](typescript/duck-typing-patterns/README.md)
     * [Compatibilité de Librairies](typescript/duck-typing-patterns/compatibilite-de-librairies.md)
     * [Entity Constructor](typescript/duck-typing-patterns/entity-constructor.md)
   * [Décorateurs](typescript/decorateurs/README.md)
@@ -35,7 +35,7 @@
     * [Décorateurs de Classe](typescript/decorateurs/decorateurs-de-classe.md)
     * [Décorateurs de Méthode & Paramètres](typescript/decorateurs/decorateurs-de-methode-and-parametres.md)
   * [Quelques Liens](typescript/quelques-liens.md)
-* Tools
+* [Tools](tools/README.md)
   * [Git](tools/git.md)
   * [Command Line](tools/command-line.md)
   * [NodeJS](tools/nodejs.md)
@@ -50,7 +50,7 @@
   * [Floobits](tools/floobits.md)
   * [Angular CLI](tools/angular-cli.md)
   * [StackBlitz](tools/stackblitz.md)
-* Angular
+* [Angular](angular/README.md)
   * [Bootstrap](angular/bootstrap.md)
   * [Composants](angular/composants/README.md)
     * [Root Component](angular/composants/root-component.md)
@@ -64,7 +64,7 @@
     * [Création de Composants](angular/composants/creation-de-composants.md)
     * [Exemple](angular/composants/exemple.md)
   * [Container vs. Presentational Components](angular/container-vs.-presentational-components.md)
-  * Interaction entre Composants
+  * [Interaction entre Composants](angular/interaction-entre-composants/README.md)
     * [Input](angular/interaction-entre-composants/input.md)
     * [Output](angular/interaction-entre-composants/output.md)
     * [Exemple](angular/interaction-entre-composants/exemple.md)
@@ -73,7 +73,7 @@
     * [Fonctionnement de la Change Detection](angular/change-detection/fonctionnement-de-la-change-detection.md)
     * [Optimisation de la Change Detection](angular/change-detection/optimisation-de-la-change-detection.md)
     * [Immutabilité](angular/change-detection/immutabilite.md)
-  * Project Structure & Modules
+  * [Project Structure & Modules](angular/project-structure-and-modules/README.md)
     * [Entry Point](angular/project-structure-and-modules/entry-point.md)
     * [Définition d'un Module](angular/project-structure-and-modules/definition-dun-module.md)
     * [Root Module](angular/project-structure-and-modules/root-module.md)
@@ -98,7 +98,7 @@
     * [Subscribe](angular/observables/subscribe.md)
     * [Unsubscribe ⚠️](angular/observables/unsubscribe.md)
     * [Création d'un Observable](angular/observables/creation-dun-observable.md)
-    * Opérateurs
+    * [Opérateurs](angular/observables/operateurs/README.md)
       * [Définition d'un Opérateur](angular/observables/operateurs/definition-dun-operateur.md)
       * [Lettable Operators vs Legacy Methods](angular/observables/operateurs/lettable-operators-vs-legacy-methods.md)
       * [map](angular/observables/operateurs/map.md)
@@ -117,7 +117,7 @@
     * [Gestion de la Subscription ⚠️](angular/http/gestion-de-la-subscription.md)
   * [Formulaires](angular/formulaires/README.md)
     * [Template-driven Forms 🤢](angular/formulaires/template-driven-forms.md)
-    * Reactive Forms 👍
+    * [Reactive Forms 👍](angular/formulaires/reactive-forms/README.md)
       * [Avantages des "Reactive Forms"](angular/formulaires/reactive-forms/avantages-des-reactive-forms.md)
       * [La boite à outils des "Reactive Forms"](angular/formulaires/reactive-forms/la-boite-a-outils-des-reactive-forms.md)
       * [Validation](angular/formulaires/reactive-forms/validation.md)
@@ -146,6 +146,6 @@
   * [Sécurité](angular/securite.md)
   * [Animation](angular/animation.md)
   * [Internationalisation](angular/internationalisation.md)
-* Cookbook
+* [Cookbook](cookbook/README.md)
   * [Authentification et Autorisation](cookbook/authentification-et-autorisation.md)
 

@@ -1,0 +1,2 @@
+# Duck Typing Patterns
+
