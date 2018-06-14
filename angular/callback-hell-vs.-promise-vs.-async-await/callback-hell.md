@@ -19,7 +19,7 @@ const handleError => error => {
     console.error(`Something went wrong but I don't know how to handle it`);
 };
 
-getCurrentyCity((error, city) => {
+getCurrentCity((error, city) => {
 
     if (error != null) {
         handleError(error);
