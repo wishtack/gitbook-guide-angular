@@ -31,3 +31,6 @@ Vous obtiendrez ensuite la documentation générée dans le dossier `documentati
 ## Example
 
 Un example de documentation générée est disponible sur ce lien : https://compodoc.github.io/compodoc-demo-todomvc-angular/
+
+## Remerciement
+Merci à Vincent OGLOBLINSKY https://github.com/vogloblinsky pour sa contribution !
