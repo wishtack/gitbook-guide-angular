@@ -50,6 +50,7 @@
   * [Floobits](tools/floobits.md)
   * [Angular CLI](tools/angular-cli.md)
   * [StackBlitz](tools/stackblitz.md)
+  * [Compodoc](tools/compodoc.md)
 * [Angular](angular/README.md)
   * [Bootstrap](angular/bootstrap.md)
   * [Composants](angular/composants/README.md)
