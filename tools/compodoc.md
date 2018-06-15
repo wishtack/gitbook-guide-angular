@@ -7,23 +7,23 @@ Compodoc est un outil open-source permettant de générer rapidement une documen
 La commande suivante installe le module `@compodoc/compodoc`.
 
 ```bash
-npm i -D @compodoc/compodoc
+yarn add --dev @compodoc/compodoc
 ```
 
 ## Utilisation
 
-Définissez ensuite une tâche npm dans votre fichier `package.json`
+Définissez ensuite un npm "script" dans votre fichier `package.json`
 
 ```json
 "scripts": {
-  "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.app.json"
+  "compodoc": "compodoc -p src/tsconfig.app.json"
 }
 ```
 
 Et lancez la ensuite dans votre terminal :
 
 ```bash
-npm run compodoc
+yarn compodoc
 ```
 
 Vous obtiendrez ensuite la documentation générée dans le dossier `documentation`. Ouvrez la dans votre navigateur préféré.
