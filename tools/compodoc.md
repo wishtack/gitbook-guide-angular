@@ -14,7 +14,7 @@ yarn add --dev @compodoc/compodoc
 
 Définissez ensuite un npm "script" dans votre fichier `package.json`
 
-```json
+```javascript
 "scripts": {
   "compodoc": "compodoc -p src/tsconfig.app.json"
 }
@@ -30,7 +30,9 @@ Vous obtiendrez ensuite la documentation générée dans le dossier `documentati
 
 ## Example
 
-Un example de documentation générée est disponible sur ce lien : https://compodoc.github.io/compodoc-demo-todomvc-angular/
+Un example de documentation générée est disponible sur ce lien : [https://compodoc.github.io/compodoc-demo-todomvc-angular/](https://compodoc.github.io/compodoc-demo-todomvc-angular/)
 
 ## Remerciement
-Merci à Vincent OGLOBLINSKY https://github.com/vogloblinsky pour sa contribution !
+
+Merci à Vincent OGLOBLINSKY [https://github.com/vogloblinsky](https://github.com/vogloblinsky) pour sa contribution !
+

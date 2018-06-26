@@ -27,7 +27,7 @@ A titre d'exemple, nous allons utiliser la fonction `fetch` désormais standard 
 Cette fonction a la particularité de retourner une `Promise`.
 
 ```typescript
-fetch('https://www.googleapis.com/books/v1/volumes?q=extreme%20programming')
+fetch('')
     .then(response => {
         console.log(response.status);
     });
