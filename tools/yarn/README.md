@@ -17,11 +17,15 @@ Essayez par vous même !
 
 ## Installation Yarn
 
+{% hint style="danger" %}
+Sur windows... [https://yarnpkg.com/en/docs/install\#windows-stable](https://yarnpkg.com/en/docs/install#windows-stable)
+{% endhint %}
+
+... ou sur un système qui fonctionne :
+
 ```bash
 npm install --global yarn
 ```
-
-ou sur windows: [https://yarnpkg.com/en/docs/install\#windows-stable](https://yarnpkg.com/en/docs/install#windows-stable)
 
 
 
