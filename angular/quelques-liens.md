@@ -1,8 +1,17 @@
 # Quelques Liens
 
+## Training Repository
+
+[https://github.com/wishtack-training/wt-training-angular](https://github.com/wishtack-training/wt-training-angular)
+
+## Wishtack's ReST API Guide
+
+[https://guide-api-rest.wishtack.io/](https://guide-api-rest.wishtack.io/)
+
 ## The Official Documentation
 
-[https://angular.io/docs](https://angular.io/docs)
+[https://angular.io/docs](https://angular.io/docs)  
+[https://angular.io/resources](https://angular.io/resources)
 
 ## NgDoc : The Unofficial Angular Docs
 
