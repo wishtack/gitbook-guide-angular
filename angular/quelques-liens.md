@@ -1,12 +1,30 @@
 # Quelques Liens
 
-## Training Repository
+## Other Wishtack Resources
+
+### Training Repository
 
 [https://github.com/wishtack-training/wt-training-angular](https://github.com/wishtack-training/wt-training-angular)
 
-## Wishtack's ReST API Guide
+### Wishtack's Blog
+
+[https://blog.wishtack.com](https://blog.wishtack.com)
+
+### Wishtack's ReST API Guide
 
 [https://guide-api-rest.wishtack.io/](https://guide-api-rest.wishtack.io/)
+
+### Wishtack Auth Demo
+
+[https://github.com/wishtack/wt-angular-auth-demo](https://github.com/wishtack/wt-angular-auth-demo)
+
+### Wishtack Steroids
+
+[https://github.com/wishtack/wishtack-steroids](https://github.com/wishtack/wishtack-steroids)
+
+### Wishtack Services
+
+[https://wishtack.io/](https://wishtack.io/)
 
 ## The Official Documentation
 
