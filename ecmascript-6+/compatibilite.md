@@ -2,7 +2,9 @@
 
 Comment faire tant que toutes les fonctionnalités ne sont pas disponibles sur nos navigateurs cibles ?
 
-[https://kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)
+​[https://kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)
+
+{% embed data="{\"url\":\"https://kangax.github.io/compat-table/es6/\",\"type\":\"link\",\"title\":\"ECMAScript 6 compatibility table\",\"icon\":{\"type\":\"icon\",\"url\":\"https://kangax.github.io/compat-table/favicon.ico\",\"aspectRatio\":0}}" %}
 
 ## Transpilation
 
@@ -36,4 +38,6 @@ console.log(valueList.first()); // 1
 ```
 
 L'une des librairies de polyfills les plus populaires est **core-js** [https://github.com/zloirock/core-js](https://github.com/zloirock/core-js).
+
+Ou encore : [https://polyfill.io](https://polyfill.io/v2/docs/).
 
