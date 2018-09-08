@@ -12,7 +12,7 @@ document.querySelector('button').disabled = user.isDisabled;
 ```
 
 | **Avantages** | **Inconvénients** |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- |
 | Simple et performant pour des cas **très basiques**. | Couplage fort avec la vue. |
 | Pas besoin de framework. | Complexité. |
 |  | Risques importants de désynchronisation du modèle avec la vue. |
@@ -37,7 +37,7 @@ customer.subscribeToFirstNameChange(firstName => nameElement.textContent = first
 ```
 
 | **Avantages** | **Inconvénients** |
-| --- | --- | --- | --- |
+| :--- | :--- |
 | Synchronisation du modèle et de la vue. | Complexité et comportement implicite. |
 |  | Problèmes de performances garantis. |
 |  | Risques de boucles infinies. |
@@ -71,7 +71,7 @@ refresh() {
 ```
 
 | **Avantages** | **Inconvénients** |
-| --- | --- | --- | --- |
+| :--- | :--- |
 | Simplicité. | Gourmand en performance sans optimisations. |
 | Couplage faible avec la vue. |  |
 | Contrôle total. |  |
