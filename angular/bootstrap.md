@@ -20,11 +20,16 @@ Installation des outils suivants :
 
 Pour créer une application Angular, nous utiliserons la commande Angular CLI : `ng`.
 
-Il faut d'abord indiquer à Angular CLI que nous utiliserons Yarn plutôt qu'NPM.
+Il faut d'abord indiquer à Angular CLI que nous utiliserons Yarn plutôt que NPM.
 
 ```bash
 ng config cli.packageManager yarn --global
 ```
+
+{% hint style="danger" %}
+En cas de problème avec cette commande, vous pouvez ignorer cette étape puis ajouter l'option `--skip-install` afin d'éviter l'installation avec npm puis installer les dépendances manuellement avec `yarn`.  
+`ng new book-shop --prefix wt --skip-install && cd book-shop && yarn install`
+{% endhint %}
 
 La commande ci-dessous va créer un projet Angular _\(avec une application\)_ dans le dossier `book-shop`.
 
