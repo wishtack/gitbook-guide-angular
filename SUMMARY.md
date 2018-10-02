@@ -116,6 +116,7 @@
     * [Utilisation de HttpClient](angular/http/utilisation-de-httpclient.md)
     * [Utilisation dans un Service](angular/http/utilisation-dans-un-service.md)
     * [Gestion de la Subscription ⚠️](angular/http/gestion-de-la-subscription.md)
+  * [GraphQL](angular/graphql.md)
   * [Formulaires](angular/formulaires/README.md)
     * [Template-driven Forms 🤢](angular/formulaires/template-driven-forms.md)
     * [Reactive Forms 👍](angular/formulaires/reactive-forms/README.md)
