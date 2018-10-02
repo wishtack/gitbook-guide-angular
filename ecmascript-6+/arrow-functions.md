@@ -15,6 +15,11 @@ var sayHi = function (userName) {
 const sayHi = (userName) => {
     console.log('Hi ' + userName);
 });
+
+/* 2018 */
+export function sayHi(userName) {
+    console.log('Hi ' + userName);
+}
 ```
 
 ## No binding
