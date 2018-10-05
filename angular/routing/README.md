@@ -1,6 +1,6 @@
 # Routing
 
-Afin de **permette aux utilisateurs de garder leurs habitudes de navigation** en visitant une Single Page Application ou une Progressive Web Application, il est nécessaire d'utiliser un système de "Routing".
+Afin de **permettre aux utilisateurs de garder leurs habitudes de navigation** en visitant une Single Page Application ou une Progressive Web Application, il est nécessaire d'utiliser un système de "Routing".
 
 Grâce au système de "Routing", les utilisateurs peuvent :
 

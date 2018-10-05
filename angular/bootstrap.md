@@ -108,3 +108,5 @@ yarn ng update
 Nous utilisons la commande `yarn ng update` au lieu de `ng update` afin d'utiliser la version Angular CLI locale à votre projet plutôt que la version installée globalement sur votre environnement _\(si Angular CLI est installé globalement\)_. 
 {% endhint %}
 
+Cf. [https://update.angular.io](https://update.angular.io)
+
