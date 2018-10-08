@@ -95,8 +95,8 @@ Chaque version est **maintenue pendant 18 mois** et reste compatible avec les fo
 [https://github.com/angular/angular/blob/master/docs/RELEASE\_SCHEDULE.md](https://github.com/angular/angular/blob/master/docs/RELEASE_SCHEDULE.md)
 
 ### A propos de Angular JS
-EngularJS correspond à la version 1.x
+AngularJS correspond à la version 1.x
 Il ne faut pas confondre Angular JS et Angular. Bien que le numéro de version 2.x semblerait indiquer une continuité avec la version 1.x de Angular, il s'agit d'une refonte intégrale du Framework. 
 
-La dernière version de AngularSJ, **AngularJS 1.7**, la dernière version de Angular JS est sortie en Mai 2018 et rentre en Long-Term Support (LTS) à partir du **1er Juillet 2018** jusqu'au **30 juin 2021**. 
+La dernière version de AngularJS, **AngularJS 1.7**, la dernière version de AngularJS est sortie en Mai 2018 et rentre en Long-Term Support (LTS) à partir du **1er Juillet 2018** jusqu'au **30 juin 2021**. 
 
