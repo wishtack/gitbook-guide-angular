@@ -83,7 +83,7 @@ Au fil des mises à jour d'Angular, vous obtiendrez donc des applications de plu
 
 ## Angular Release Schedule & Long-Term Support
 
-L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 mois** _\(correspondant aux deux grandes conférences mondiales en Avril [NodeConf], et en Septembre [AngularConf] \)_.
+L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 mois** _\(correspondant aux deux grandes conférences mondiales en Mai [NgConf], et en Novembre [Angular Connect] \)_.
 
 * **Angular 2** : Septembre 2016
 * **Angular 4** : Mars 2017
