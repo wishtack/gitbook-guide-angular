@@ -35,7 +35,7 @@ On peut donc rapidement produire des applications webs donnant l'illusion d'une 
 
 L'idée est de voir le web comme des applications interreliées plutôt que des sites web contenant des pages.
 
-{% embed data="{\"url\":\"https://developers.google.com/web/progressive-web-apps/\",\"type\":\"link\",\"title\":\"Progressive Web Apps  \|  Web        \|  Google Developers\",\"icon\":{\"type\":\"icon\",\"url\":\"https://developers.google.com/\_static/58be87116d/images/touch-icon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://developers.google.com/\_static/58be87116d/images/share/devsite-google-blue.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed data="{\"url\":\"https://developers.google.com/web/progressive-web-apps/\",\"type\":\"link\",\"title\":\"Progressive Web Apps  \|  Web        \|  Google Developers\",\"icon\":{\"type\":\"icon\",\"url\":\"https://developers.google.com/\_static/58be87116d/images/touch-icon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://developers.google.com/\_static/58be87116d/images/share/devsite-google-blue.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
 
 ## Abstraction
 
@@ -83,7 +83,7 @@ Au fil des mises à jour d'Angular, vous obtiendrez donc des applications de plu
 
 ## Angular Release Schedule & Long-Term Support
 
-L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 mois** _\(correspondant aux deux grandes conférences mondiales en Mai [NgConf], et en Novembre [Angular Connect] \)_.
+L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 mois** _\(correspondant aux deux grandes conférences mondiales en Mai \[_[_NgConf_](https://www.ng-conf.org/)_\], et en Novembre \[_[_Angular Connect_](http://angularconnect.com/)_\] \)_.
 
 * **Angular 2** : Septembre 2016
 * **Angular 4** : Mars 2017
@@ -94,9 +94,9 @@ Chaque version est **maintenue pendant 18 mois** et reste compatible avec les fo
 
 [https://github.com/angular/angular/blob/master/docs/RELEASE\_SCHEDULE.md](https://github.com/angular/angular/blob/master/docs/RELEASE_SCHEDULE.md)
 
-### A propos de Angular JS
-AngularJS correspond à la version 1.x
-Il ne faut pas confondre Angular JS et Angular. Bien que le numéro de version 2.x semblerait indiquer une continuité avec la version 1.x de Angular, il s'agit d'une refonte intégrale du Framework. 
+### A propos d'AngularJS
 
-La dernière version de AngularJS, **AngularJS 1.7**, la dernière version de AngularJS est sortie en Mai 2018 et rentre en Long-Term Support (LTS) à partir du **1er Juillet 2018** jusqu'au **30 juin 2021**. 
+AngularJS correspond à la version 1.x Il ne faut pas confondre AngularJS et Angular. Bien que le numéro de version 2.x semblerait indiquer une continuité avec la version 1.x de Angular, il s'agit d'une refonte intégrale du Framework.
+
+La dernière version de AngularJS, **AngularJS 1.7**, la dernière version de AngularJS est sortie en Mai 2018 et rentre en Long-Term Support \(LTS\) à partir du **1er Juillet 2018** jusqu'au **30 juin 2021**.
 

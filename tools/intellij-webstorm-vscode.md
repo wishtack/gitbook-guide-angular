@@ -2,7 +2,7 @@
 
 ## JetBrain's IntelliJ IDEA & WebStorm
 
-[IntelliJ IDEA](https://www.jetbrains.com/idea/)  & [WebStorm](https://www.jetbrains.com/webstorm/) sont deux IDEs produits par [JetBrains](https://www.jetbrains.com/) _\(connu pour Android Studio, PyCharm, ReSharper...\)._
+[IntelliJ IDEA](https://www.jetbrains.com/idea/) & [WebStorm](https://www.jetbrains.com/webstorm/) sont deux IDEs produits par [JetBrains](https://www.jetbrains.com/) _\(connu pour Android Studio, PyCharm, ReSharper...\)._
 
 **IntelliJ IDEA** est un IDE Java initialement mais il dispose de plugins pour de nombreux autres langages _\(JavaScript, Python, TypeScript etc...\)._  
 **WebStorm** est simplement une version limitée d'IntelliJ IDEA sans support pour le Java ou le Python par exemple.
@@ -51,18 +51,15 @@ Extension Chrome pour "debug" vos applications en toute simplicité.
 
 ## Visual Studio Code
 
-{% embed data="{\"url\":\"https://code.visualstudio.com/\",\"type\":\"link\",\"title\":\"Visual Studio Code - Code Editing. Redefined\",\"description\":\"Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://code.visualstudio.com/favicon.ico\",\"width\":128,\"height\":128,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://code.visualstudio.com/opengraphimg/opengraph-home.png\",\"width\":1223,\"height\":630,\"aspectRatio\":0.5151267375306623}}" %}
+{% embed data="{\"url\":\"https://code.visualstudio.com/\",\"type\":\"link\",\"title\":\"Visual Studio Code - Code Editing. Redefined\",\"description\":\"Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://code.visualstudio.com/favicon.ico\",\"width\":128,\"height\":128,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://code.visualstudio.com/opengraphimg/opengraph-home.png\",\"width\":1223,\"height\":630,\"aspectRatio\":0.5151267375306623}}" %}
 
 Visual Studio Code est un éditeur de code Microsoft gratuit et open-source.
 
 Ses points forts sont son prix et sa légèreté.
 
-Contrairement à IntelliJ, avec Visual Studio Code, c'est à vous de rechercher et configurer les plugins qu'il vous faut.  
-
+Contrairement à IntelliJ, avec Visual Studio Code, c'est à vous de rechercher et configurer les plugins qu'il vous faut.
 
 {% hint style="info" %}
 Pensez à mesurer le temps passé à rechercher et configurer les plugins / extensions.
 {% endhint %}
-
-
 
