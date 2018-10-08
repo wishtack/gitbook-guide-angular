@@ -83,7 +83,7 @@ Au fil des mises à jour d'Angular, vous obtiendrez donc des applications de plu
 
 ## Angular Release Schedule & Long-Term Support
 
-L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 mois** _\(avril et octobre\)_.
+L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 mois** _\(correspondant aux deux grandes conférences mondiales en Mai [NgConf], et en Novembre [Angular Connect] \)_.
 
 * **Angular 2** : Septembre 2016
 * **Angular 4** : Mars 2017
@@ -94,5 +94,9 @@ Chaque version est **maintenue pendant 18 mois** et reste compatible avec les fo
 
 [https://github.com/angular/angular/blob/master/docs/RELEASE\_SCHEDULE.md](https://github.com/angular/angular/blob/master/docs/RELEASE_SCHEDULE.md)
 
-AngularJS 1.7 est prévu pour juin 2018 et rentre en Long-Term Support jusqu'au **30 juin 2021**. 
+### A propos de Angular JS
+AngularJS correspond à la version 1.x
+Il ne faut pas confondre Angular JS et Angular. Bien que le numéro de version 2.x semblerait indiquer une continuité avec la version 1.x de Angular, il s'agit d'une refonte intégrale du Framework. 
+
+La dernière version de AngularJS, **AngularJS 1.7**, la dernière version de AngularJS est sortie en Mai 2018 et rentre en Long-Term Support (LTS) à partir du **1er Juillet 2018** jusqu'au **30 juin 2021**. 
 
