@@ -61,7 +61,7 @@ Contrairement à IntelliJ, avec Visual Studio Code, c'est à vous de rechercher 
 
 
 {% hint style="info" %}
-Pensez à mesurer le temps passer à rechercher et configurer les plugins / extensions.
+Pensez à mesurer le temps passé à rechercher et configurer les plugins / extensions.
 {% endhint %}
 
 
