@@ -23,4 +23,5 @@ Lorsque vous recherchez *une action*, le **raccourci clavier actif** apparait à
 | Utiliser les tips de l'IDE  | Alt+Enter  | Alt+Enter
 | Naviguer vers un composant  | Ctrl+Click | Ctrl+Click |
 | Edition multi pointeurs  | Alt+Click Gauche |  |
-| Selectionner occurence d'un mot clef  | Alt + J | Cmd + G |
+| Selectionner occurence d'un mot clef  | Alt+J | Cmd+G |
+| Re-indentation automatique des lignes  | Ctrl+Alt+L | Cmd+G |
