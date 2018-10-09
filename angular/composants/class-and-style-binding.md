@@ -2,6 +2,15 @@
 
 ## Class Binding
 
+```markup
+<div [class.wt-important]="isImportant">Important Stuff</div>
+```
+
+{% hint style="warning" %}
+Evitez la construction manuelle de la "string" class :  
+`classString += ' b'` puis `<div [class]="classString"></div>`.
+{% endhint %}
+
 [https://angular.io/guide/template-syntax\#class-binding](https://angular.io/guide/template-syntax#class-binding)
 
 {% embed data="{\"url\":\"https://angular.io/guide/template-syntax\#class-binding\",\"type\":\"link\",\"title\":\"Angular Docs\"}" %}
