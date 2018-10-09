@@ -25,3 +25,4 @@ Lorsque vous recherchez *une action*, le **raccourci clavier actif** apparait à
 | Edition multi pointeurs  | Alt+Click Gauche |  |
 | Selectionner occurence d'un mot clef  | Alt+J | Cmd+G |
 | Re-indentation automatique des lignes  | Ctrl+Alt+L | Cmd+G |
+| Déplacer une ligne de code | Ctrl+Shift+Fleche haut/Bas | Cmd+G |
