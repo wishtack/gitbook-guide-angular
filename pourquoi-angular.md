@@ -35,7 +35,7 @@ On peut donc rapidement produire des applications webs donnant l'illusion d'une 
 
 L'idée est de voir le web comme des applications interreliées plutôt que des sites web contenant des pages.
 
-{% embed data="{\"url\":\"https://developers.google.com/web/progressive-web-apps/\",\"type\":\"link\",\"title\":\"Progressive Web Apps  \|  Web        \|  Google Developers\",\"icon\":{\"type\":\"icon\",\"url\":\"https://developers.google.com/\_static/58be87116d/images/touch-icon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://developers.google.com/\_static/58be87116d/images/share/devsite-google-blue.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525}}" %}
+{% embed url="https://developers.google.com/web/progressive-web-apps/" %}
 
 ## Abstraction
 

@@ -89,7 +89,7 @@ Contrairement à l'approche `takeUntil`, `takeWhile` ne peut pas détecter en te
 
 [https://github.com/wishtack/wishtack-book-shop/tree/7-unsubscribe-using-take-until](https://github.com/wishtack/wishtack-book-shop/tree/7-unsubscribe-using-take-until)
 
-{% embed data="{\"url\":\"https://stackblitz.com/github/wishtack/wishtack-book-shop/tree/7-unsubscribe-using-take-until\",\"type\":\"link\",\"title\":\"StackBlitz\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}" %}
+{% embed url="https://stackblitz.com/github/wishtack/wishtack-book-shop/tree/7-unsubscribe-using-take-until" %}
 
 
 
@@ -254,7 +254,7 @@ this.bookList$ = this._bookRepository.getBookList()
 
 [https://github.com/wishtack/wishtack-book-shop/tree/8-unsubscribe-using-async-pipe](https://github.com/wishtack/wishtack-book-shop/tree/8-unsubscribe-using-async-pipe)
 
-{% embed data="{\"url\":\"https://stackblitz.com/github/wishtack/wishtack-book-shop/tree/8-unsubscribe-using-async-pipe\",\"type\":\"link\",\"title\":\"StackBlitz\",\"icon\":{\"type\":\"icon\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://c.staticblitz.com/assets/icon-664493542621427cc8adae5e8f50d632f87aaa6ea1ce5b01e9a3d05b57940a9f.png\",\"aspectRatio\":0}}" %}
+{% embed url="https://stackblitz.com/github/wishtack/wishtack-book-shop/tree/8-unsubscribe-using-async-pipe" %}
 
 ![Observables &#x2764;&#xFE0F;async pipe &#x2764;&#xFE0F;retry](../../.gitbook/assets/http-retry.gif)
 

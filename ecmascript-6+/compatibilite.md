@@ -4,7 +4,7 @@ Comment faire tant que toutes les fonctionnalités ne sont pas disponibles sur n
 
 ​[https://kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)
 
-{% embed data="{\"url\":\"https://kangax.github.io/compat-table/es6/\",\"type\":\"link\",\"title\":\"ECMAScript 6 compatibility table\",\"icon\":{\"type\":\"icon\",\"url\":\"https://kangax.github.io/compat-table/favicon.ico\",\"aspectRatio\":0}}" %}
+{% embed url="https://kangax.github.io/compat-table/es6/" %}
 
 ## Transpilation
 

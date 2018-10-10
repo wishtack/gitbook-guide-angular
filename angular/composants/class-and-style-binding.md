@@ -13,7 +13,7 @@ Evitez la construction manuelle de la "string" class :
 
 [https://angular.io/guide/template-syntax\#class-binding](https://angular.io/guide/template-syntax#class-binding)
 
-{% embed data="{\"url\":\"https://angular.io/guide/template-syntax\#class-binding\",\"type\":\"link\",\"title\":\"Angular Docs\"}" %}
+{% embed url="https://angular.io/guide/template-syntax\#class-binding" %}
 
 ## Style Binding
 
@@ -27,7 +27,7 @@ Evitez la construction manuelle de la "string" class :
 
 [https://angular.io/guide/template-syntax\#style-binding](https://angular.io/guide/template-syntax#style-binding)
 
-{% embed data="{\"url\":\"https://angular.io/guide/template-syntax\#style-binding\",\"type\":\"link\",\"title\":\"Angular Docs\"}" %}
+{% embed url="https://angular.io/guide/template-syntax\#style-binding" %}
 
 
 

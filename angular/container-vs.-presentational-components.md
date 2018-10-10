@@ -73,7 +73,7 @@ Il est donc un "Presentational Component" qui est débarrassé de la "business l
 
 ## Article plus détaillé sur le sujet
 
-{% embed data="{\"url\":\"https://blog.wishtack.com/2017/05/05/the-guide-to-building-quality-angular-2-components/\",\"type\":\"link\",\"title\":\"The Guide to Building Quality Angular 2+ Components\",\"description\":\"Learn how to split code and responsibilities between Angular components.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://wishtackblog.files.wordpress.com/2017/03/cropped-wishtack\_logo\_1024x1024.png?w=192\",\"width\":192,\"height\":192,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://wishtackblog.files.wordpress.com/2017/05/angular-components-responsibilities-table.png\",\"width\":632,\"height\":161,\"aspectRatio\":0.254746835443038}}" %}
+{% embed url="https://blog.wishtack.com/2017/05/05/the-guide-to-building-quality-angular-2-components/" %}
 
 ## Interaction entre Composants
 

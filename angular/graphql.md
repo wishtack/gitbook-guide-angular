@@ -20,7 +20,7 @@ Le plugin GraphQL d'IntelliJ / WebStorm facilite la consommation d'APIs GraphQL 
 
 [https://plugins.jetbrains.com/plugin/8097-js-graphql](https://plugins.jetbrains.com/plugin/8097-js-graphql)
 
-{% embed data="{\"url\":\"https://plugins.jetbrains.com/plugin/8097-js-graphql\",\"type\":\"link\",\"title\":\"JS GraphQL - Plugins \| JetBrains\",\"description\":\"Welcome to the JetBrains plugin repository\",\"icon\":{\"type\":\"icon\",\"url\":\"https://resources.jetbrains.com/storage/ui/favicons/apple-touch-icon-180x180.png\",\"width\":180,\"height\":180,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://resources.jetbrains.com/storage/products/jetbrains/img/meta/jetbrains\_1280x800.png\",\"width\":1280,\"height\":800,\"aspectRatio\":0.625}}" %}
+{% embed url="https://plugins.jetbrains.com/plugin/8097-js-graphql" %}
 
 ## Services Query / Mutate
 
@@ -67,5 +67,5 @@ Pensez à utiliser les fragments pour factoriser vos queries.
 
 [https://www.apollographql.com/docs/angular/features/fragments.html](https://www.apollographql.com/docs/angular/features/fragments.html)
 
-{% embed data="{\"url\":\"https://www.apollographql.com/docs/angular/features/fragments.html\",\"type\":\"link\",\"title\":\"Using Fragments \| Apollo Angular\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.apollographql.com/docs/angular/images/favicon-apollo.png\",\"aspectRatio\":0}}" %}
+{% embed url="https://www.apollographql.com/docs/angular/features/fragments.html" %}
 

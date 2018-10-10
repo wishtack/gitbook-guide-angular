@@ -1,6 +1,6 @@
 # Floobits
 
-{% embed data="{\"url\":\"http://floobits.com/\",\"type\":\"link\",\"title\":\"Floobits: Cross-editor real-time collaboration\",\"icon\":{\"type\":\"icon\",\"url\":\"https://floobits.com/favicon.ico\",\"aspectRatio\":0},\"caption\":\"Floobits\"}" %}
+{% embed url="http://floobits.com/" caption="Floobits" %}
 
 Floobits est une plateforme de développement collaboratif proposant un plugin pour les IDEs JetBrains.
 

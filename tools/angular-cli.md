@@ -1,6 +1,6 @@
 # Angular CLI
 
-{% embed data="{\"url\":\"https://cli.angular.io/\",\"type\":\"link\",\"title\":\"Angular CLI\",\"icon\":{\"type\":\"icon\",\"url\":\"https://cli.angular.io/favicon.ico\",\"aspectRatio\":0},\"caption\":\"Angular CLI\"}" %}
+{% embed url="https://cli.angular.io/" caption="Angular CLI" %}
 
 Angular CLI est un outil permettant de créer, construire, générer et tester vos applications et librairies Angular.
 

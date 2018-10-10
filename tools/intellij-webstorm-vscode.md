@@ -27,7 +27,7 @@ Si vous optez pour IntelliJ plutôt que WebStorm, pensez à installer le plugin 
 
 ### JetBrains Toolbox
 
-{% embed data="{\"url\":\"https://www.jetbrains.com/toolbox/\",\"type\":\"link\",\"title\":\"Toolbox: All the Right Tools for Polyglot Development\",\"description\":\"The\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.jetbrains.com/apple-touch-icon-180x180.png\",\"width\":180,\"height\":180,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://resources.jetbrains.com/storage/products/toolbox/img/meta/toolbox\_1280x800.png\",\"width\":1280,\"height\":800,\"aspectRatio\":0.625}}" %}
+{% embed url="https://www.jetbrains.com/toolbox/" %}
 
 JetBrains Toolbox est un outil très pratique vous permettant d'installer et mettre à jour les outils JetBrains de votre choix. Il permet aussi un accès rapide à vos projets.
 
@@ -47,11 +47,11 @@ Les IDEs JetBrains :
 
 Extension Chrome pour "debug" vos applications en toute simplicité.
 
-{% embed data="{\"url\":\"https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji\",\"type\":\"link\",\"title\":\"JetBrains IDE Support\",\"description\":\"HTML/CSS/JavaScript editing and JavaScript debugging using JetBrains IDEs.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://ssl.gstatic.com/chrome/webstore/images/icon\_144px.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://lh3.googleusercontent.com/sVgUfYqQYFUXVietc6jzqMa7yohb2ThmK9dU-d6aK5Ax348ef6qYeuNUEyMnfk5NPfmILbzz=w128-h128-e365\",\"width\":128,\"height\":128,\"aspectRatio\":1}}" %}
+{% embed url="https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji" %}
 
 ## Visual Studio Code
 
-{% embed data="{\"url\":\"https://code.visualstudio.com/\",\"type\":\"link\",\"title\":\"Visual Studio Code - Code Editing. Redefined\",\"description\":\"Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://code.visualstudio.com/favicon.ico\",\"width\":128,\"height\":128,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"http://code.visualstudio.com/opengraphimg/opengraph-home.png\",\"width\":1223,\"height\":630,\"aspectRatio\":0.5151267375306623}}" %}
+{% embed url="https://code.visualstudio.com/" %}
 
 Visual Studio Code est un éditeur de code Microsoft gratuit et open-source.
 

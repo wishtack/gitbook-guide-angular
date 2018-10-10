@@ -45,3 +45,31 @@ Cela permet de détecter les problèmes de conception ou d'implémentation tels 
 
 ![Angular Change Detection](../../.gitbook/assets/angular-change-detection.gif)
 
+{% tabs %}
+{% tab title="1" %}
+![](../../.gitbook/assets/1.jpg)
+{% endtab %}
+
+{% tab title="2" %}
+![](../../.gitbook/assets/2.jpg)
+{% endtab %}
+
+{% tab title="3" %}
+![](../../.gitbook/assets/3.jpg)
+{% endtab %}
+
+{% tab title="4" %}
+![](../../.gitbook/assets/4.jpg)
+{% endtab %}
+
+{% tab title="5" %}
+![](../../.gitbook/assets/5.jpg)
+{% endtab %}
+
+{% tab title="" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+
