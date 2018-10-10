@@ -8,7 +8,7 @@ Vous pourrez également retrouver sur le site de l'éditeur, une liste plus comp
 L'éditeur dispose de centaines d'options et d'actions. Pour s'y retrouver rapidement sans épuiser l'ensemble des menus de l'IDE, il existe une entrée spécifique "Find Actions" dans le menu Aide.
 
 
-Pour le faire apparaitre, il suffit d'appuyer sur Ctrl+Shift+A (Windows) et taper le début du nom de l'action ou du fichier recherché
+Pour le faire apparaitre, il suffit d'appuyer deux fois sur la touche Shift et taper le début du nom de l'action ou du fichier recherché
 
 ![FindAction](https://www.jetbrains.com/help/img/idea/2018.2/ws_gotoAction.png)
 
@@ -27,3 +27,11 @@ Lorsque vous recherchez *une action*, le **raccourci clavier actif** apparait à
 | Re-indentation automatique des lignes  | Ctrl+Alt+L | Cmd+G |
 | Déplacer une ligne de code | Ctrl+Shift+Fleche haut/Bas | Ctrl+Shift+Fleche haut/Bas |
 | Documentation rapide | Ctrl+Q | Ctrl+J |
+
+## Liste des raccourcis claviers Windows/Linux & Mac IntelliJ
+
+https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
+
+## 10 Raccourcis indispensables à connaitre
+
+[Lien vers Blog](JetBrainshttps://blog.jetbrains.com/webstorm/2015/06/10-webstorm-shortcuts-you-need-to-know/)
