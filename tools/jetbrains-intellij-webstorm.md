@@ -23,8 +23,9 @@ Lorsque vous recherchez *une action*, le **raccourci clavier actif** apparait à
 | Utiliser les tips de l'IDE  | Alt+Enter  | Alt+Enter
 | Naviguer vers un composant  | Ctrl+Click | Ctrl+Click |
 | Edition multi pointeurs  | Alt+Click Gauche |  |
-| Selectionner occurence d'un mot clef  | Alt+J | Cmd+G |
-| Re-indentation automatique des lignes  | Ctrl+Alt+L | Cmd+G |
+| Selectionner occurence d'un mot clef | Alt+J | Cmd+G |
+| Re-indentation automatique des lignes | Ctrl+Alt+L | Cmd+G |
+| Re-indentation alphabétique des imports | Ctrl+Alt+O | Ctrl+Alt+O |
 | Déplacer une ligne de code | Ctrl+Shift+Fleche haut/Bas | Ctrl+Shift+Fleche haut/Bas |
 | Documentation rapide | Ctrl+Q | Ctrl+J |
 
