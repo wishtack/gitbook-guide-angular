@@ -47,3 +47,13 @@ Lorsque vous recherchez _une action_, le **raccourci clavier actif** apparaît �
 
 {% embed url="https://www.youtube.com/watch?v=upgjCMHGpwo" %}
 
+## Remerciement {#remerciement}
+
+Merci à Yannick BIET pour sa contribution !
+
+[https://github.com/YannickBiet](https://github.com/YannickBiet)
+
+{% embed url="https://github.com/YannickBiet" %}
+
+[https://twitter.com/yannickbiet](https://twitter.com/yannickbiet?lang=fr)
+

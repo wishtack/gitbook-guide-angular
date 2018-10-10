@@ -34,5 +34,11 @@ Un example de documentation générée est disponible sur ce lien : [https://com
 
 ## Remerciement
 
-Merci à Vincent OGLOBLINSKY [https://github.com/vogloblinsky](https://github.com/vogloblinsky) pour sa contribution !
+Merci à Vincent OGLOBLINSKY pour sa contribution !
+
+[https://github.com/vogloblinsky](https://github.com/vogloblinsky)
+
+{% embed url="https://github.com/vogloblinsky" %}
+
+[https://twitter.com/vogloblinsky](https://twitter.com/vogloblinsky)
 
