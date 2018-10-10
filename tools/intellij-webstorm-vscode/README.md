@@ -31,7 +31,7 @@ Si vous optez pour IntelliJ plutôt que WebStorm, pensez à installer le plugin 
 
 JetBrains Toolbox est un outil très pratique vous permettant d'installer et mettre à jour les outils JetBrains de votre choix. Il permet aussi un accès rapide à vos projets.
 
-![JetBrains Toolbox](../.gitbook/assets/jetbrains-toolbox.png)
+![JetBrains Toolbox](../../.gitbook/assets/jetbrains-toolbox.png)
 
 ### Points forts
 

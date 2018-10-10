@@ -12,7 +12,7 @@ Installation des outils suivants :
 
 {% page-ref page="../tools/angular-cli.md" %}
 
-{% page-ref page="../tools/intellij-webstorm-vscode.md" %}
+{% page-ref page="../tools/intellij-webstorm-vscode/" %}
 
 {% page-ref page="../tools/chrome.md" %}
 
