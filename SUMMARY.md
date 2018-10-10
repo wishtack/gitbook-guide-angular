@@ -47,6 +47,7 @@
     * [Mise à Jour et Automatisation](tools/yarn/mise-a-jour-et-automatisation.md)
   * [Chrome](tools/chrome.md)
   * [IntelliJ / WebStorm / VSCode](tools/intellij-webstorm-vscode.md)
+    * [Raccourcis claviers IntelliJ / WebStorm](tools/jetbrains-intellij-webstorm.md)
   * [Floobits](tools/floobits.md)
   * [Angular CLI](tools/angular-cli.md)
   * [StackBlitz](tools/stackblitz.md)
