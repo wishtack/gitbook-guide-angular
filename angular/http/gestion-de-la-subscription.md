@@ -262,9 +262,9 @@ Pour reproduire l'erreur ci-dessus, vous pouvez **bloquer le domaine de l'API su
 
 ![Chrome Block request](../../.gitbook/assets/chrome-block-domain-or-url.png)
 
-## Subscription Garbage Collector
+## RxScavenger
 
-Coming soon...
+[https://blog.wishtack.com/2018/05/30/handle-rxjs-subscriptions-properly-using-rx-scavenger/](https://blog.wishtack.com/2018/05/30/handle-rxjs-subscriptions-properly-using-rx-scavenger/)
 
-En attendant : [https://github.com/wishtack/wt-angular-auth-demo/blob/master/src/app/helpers/subscription-garbage-collector.ts](https://github.com/wishtack/wt-angular-auth-demo/blob/master/src/app/helpers/subscription-garbage-collector.ts)
+{% embed url="https://blog.wishtack.com/2018/05/30/handle-rxjs-subscriptions-properly-using-rx-scavenger/" %}
 
