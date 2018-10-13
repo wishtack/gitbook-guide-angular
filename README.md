@@ -14,9 +14,11 @@ Après 5 ans de développement d'applications AngularJS / Angular, d'animation d
 
 ## Copyright
 
-Ce livre est l'oeuvre et la propriété de la société Wishtack.
+{% hint style="warning" %}
+Ce guide est l'oeuvre et la propriété de la société Wishtack.
 
 Il ne peut être utilisé partiellement ou intégralement comme support de prestations rémunérées sauf par les employés de la société Wishtack.
+{% endhint %}
 
 En cas de doute, merci de contacter l'équipe Wishtack : [contact@wishtack.com](mailto:contact@wishtack.com)
 
