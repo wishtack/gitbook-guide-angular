@@ -47,7 +47,7 @@ Lorsque vous recherchez _une action_, le **raccourci clavier actif** apparaît �
 
 {% embed url="https://www.youtube.com/watch?v=upgjCMHGpwo" %}
 
-## Remerciement {#remerciement}
+## Remerciement <a id="remerciement"></a>
 
 Merci à Yannick BIET pour sa contribution !
 

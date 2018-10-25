@@ -27,10 +27,7 @@ A titre d'exemple, nous allons utiliser la fonction `fetch` désormais standard 
 Cette fonction a la particularité de retourner une `Promise`.
 
 ```typescript
-fetch('')
-    .then(response => {
-        console.log(response.status);
-    });
+fetch('https://www.googleapis.com/books/v1/volumes?q=extreme%20programming')
 ```
 
 Pour accéder au "body" de la response, il faut utiliser la méthode `Response.json` qui retourne une `Promise` également.

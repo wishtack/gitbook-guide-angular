@@ -75,6 +75,7 @@
     * [Fonctionnement de la Change Detection](angular/change-detection/fonctionnement-de-la-change-detection.md)
     * [Optimisation de la Change Detection](angular/change-detection/optimisation-de-la-change-detection.md)
     * [Immutabilité](angular/change-detection/immutabilite.md)
+    * [Quelques Liens](angular/change-detection/quelques-liens.md)
   * [Project Structure & Modules](angular/project-structure-and-modules/README.md)
     * [Entry Point](angular/project-structure-and-modules/entry-point.md)
     * [Définition d'un Module](angular/project-structure-and-modules/definition-dun-module.md)
