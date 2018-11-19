@@ -89,6 +89,7 @@ L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 
 * **Angular 4** : Mars 2017
 * **Angular 5** : Novembre 2017
 * **Angular 6** : 3 mai 2018 _\(Angular CLI, Angular Material, Flex Layout etc... synchronisent leurs versions également\)_
+* **Angular 7** : 18 octobre 2018
 
 Chaque version est **maintenue pendant 18 mois** et reste compatible avec les fonctionnalités de la version précédente qui deviennent dépréciées.
 
