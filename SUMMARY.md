@@ -6,6 +6,7 @@
   * [Un Peu d'Histoire](ecmascript-6+/un-peu-dhistoire.md)
   * [Propriétés du Langage](ecmascript-6+/proprietes-du-langage.md)
   * ["Single-Threaded" donc Asynchrone](ecmascript-6+/single-threaded-donc-asynchrone.md)
+  * [Event Loop](ecmascript-6+/event-loop.md)
   * [Classes](ecmascript-6+/classes.md)
   * [Hoisting is Dead: var vs. let vs. const](ecmascript-6+/hoisting-is-dead-var-vs.-let-vs.-const.md)
   * [this & "binding"](ecmascript-6+/this-and-binding.md)
