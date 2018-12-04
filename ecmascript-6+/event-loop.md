@@ -98,9 +98,7 @@ main();
 
 ![Event Loop](../.gitbook/assets/event-loop.jpg)
 
-{% embed url="https://www.youtube.com/watch?v=8aGhZQkoFbQ" caption="What the heck is the event loop anyway?" %}
-
 {% embed url="https://www.youtube.com/watch?v=cCOL7MC4Pl0" caption="Jake Archibald: In The Loop" %}
 
-
+{% embed url="https://www.youtube.com/watch?v=8aGhZQkoFbQ" caption="What the heck is the event loop anyway?" %}
 
