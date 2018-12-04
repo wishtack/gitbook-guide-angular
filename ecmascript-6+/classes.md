@@ -39,7 +39,7 @@ Customer.prototype = {
 
 ## Visibilité
 
-En attendant la notion de [class fields](https://github.com/tc39/proposal-class-fields) qui sera probablement bientôt introduite en ECMAScript 2018 [http://kangax.github.io/compat-table/esnext/](http://kangax.github.io/compat-table/esnext/), la notion de visibilité `private` se base sur la convention de nommage qui consiste à préfixer la propriété ou la méthode par le caractère underscore : `_`
+En attendant la notion de [class fields](https://github.com/tc39/proposal-class-fields) qui sera probablement bientôt introduite en ECMAScript 2019 [http://kangax.github.io/compat-table/esnext/](http://kangax.github.io/compat-table/esnext/), la notion de visibilité `private` se base sur la convention de nommage qui consiste à préfixer la propriété ou la méthode par le caractère underscore : `_`
 
 ```javascript
 class Customer {
