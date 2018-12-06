@@ -43,5 +43,9 @@
 
 [https://angular-2-training-book.rangle.io](https://angular-2-training-book.rangle.io)
 
+## Angular Checklist
 
+[https://angular-checklist.io](https://angular-checklist.io)
+
+{% embed url="https://angular-checklist.io" %}
 
