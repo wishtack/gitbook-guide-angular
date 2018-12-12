@@ -157,4 +157,5 @@
   * [Quelques Liens](angular/quelques-liens.md)
 * [Cookbook](cookbook/README.md)
   * [Authentification et Autorisation](cookbook/authentification-et-autorisation.md)
+  * [Remplacement Dynamique de Composants](cookbook/remplacement-dynamique-de-composants.md)
 
