@@ -152,7 +152,7 @@
       * [Unit-Test et Spies](angular/testing/unit-testing/unit-test-et-spies.md)
       * [Unit-Test et HttpClient](angular/testing/unit-testing/unit-test-et-httpclient.md)
     * [End-to-End](angular/testing/end-to-end.md)
-    * [Quelques Liens](angular/testing/quelques-liens.md)
+    * [Talks](angular/testing/talks.md)
   * [Sécurité](angular/securite/README.md)
     * [Quelques Liens](angular/securite/quelques-liens.md)
   * [Animation](angular/animation.md)
