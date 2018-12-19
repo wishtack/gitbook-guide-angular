@@ -14,7 +14,7 @@ var sayHi = function (userName) {
 /* 2015 */
 const sayHi = (userName) => {
     console.log('Hi ' + userName);
-});
+};
 
 /* 2018 */
 export function sayHi(userName) {

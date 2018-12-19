@@ -81,6 +81,8 @@ Angular est un **framework** très **déclaratif**. Cela peut sembler fastidieux
 
 Au fil des mises à jour d'Angular, vous obtiendrez donc des applications de plus en plus performantes sans changer votre code ou à la rigueur en éliminant les usages dépréciés.
 
+![How angular loses weight](.gitbook/assets/how-angular-loses-weight.png)
+
 ## Angular Release Schedule & Long-Term Support
 
 L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 mois** _\(correspondant aux deux grandes conférences mondiales en Mai \[_[_NgConf_](https://www.ng-conf.org/)_\], et en Novembre \[_[_Angular Connect_](http://angularconnect.com/)_\] \)_.
