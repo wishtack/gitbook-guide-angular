@@ -12,6 +12,20 @@ Après 5 ans de développement d'applications AngularJS / Angular, d'animation d
 * Produire un **guide** **gratuit**, **à jour** et **communautaire.**
   * N'hésitez donc pas à nous envoyer vos Pull Requests sur : [https://github.com/wishtack/gitbook-guide-angular](https://github.com/wishtack/gitbook-guide-angular)
 
+## Prochaines Sessions de Formation Angular
+
+### Formation Angular
+
+Du 11 au 13 février 2019 à Lyon
+
+{% embed url="https://blog.wishtack.com/formation-angular/" %}
+
+### Formation Angular Avancée
+
+Du 14 au 15 février 2019 à Lyon
+
+{% embed url="https://blog.wishtack.com/formation-angular-production/" %}
+
 ## Copyright
 
 {% hint style="warning" %}
