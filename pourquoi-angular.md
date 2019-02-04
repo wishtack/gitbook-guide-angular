@@ -2,7 +2,7 @@
 
 ## Angular est un framework
 
-Contrairement à d'autres alternatives intéressantes telles que [React](https://reactjs.org/), Angular n'est pas une librairie mais bien un framework avec une approche "batteries included".
+Contrairement à d'autres alternatives intéressantes telles que [React](https://reactjs.org/), Angular n'est pas une "library" mais bien un framework avec une approche "batteries included".
 
 Angular fournit donc nativement tout le nécessaire pour produire une application entière avec une configuration standard :
 
