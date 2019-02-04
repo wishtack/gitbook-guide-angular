@@ -23,6 +23,12 @@ Dans la plupart des cas, vous éviterez les problèmes de compatibilité de dép
 
 En contrepartie, voici un exemple de mise en place d'un "preprocessor" sass sur une app React [https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md\#adding-a-css-preprocessor-sass-less-etc](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)
 
+### Point de vue de Vue.js concernant Angular
+
+![Opinionated Frameworks vs. Flexibility](.gitbook/assets/flexibility.png)
+
+Source:  [https://vuejs.org/v2/guide/comparison.html\#Flexibility](https://vuejs.org/v2/guide/comparison.html#Flexibility)
+
 ## TypeScript
 
 Angular profite de la **rigueur et flexibilité** du langage TypeScript.
