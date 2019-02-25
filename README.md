@@ -16,13 +16,9 @@ Après 5 ans de développement d'applications AngularJS / Angular, d'animation d
 
 ### Formation Angular
 
-Du 11 au 13 février 2019 à Lyon
-
 {% embed url="https://blog.wishtack.com/formation-angular/" %}
 
-### Formation Angular Avancée
-
-Du 14 au 15 février 2019 à Lyon
+### Formation Angular Production
 
 {% embed url="https://blog.wishtack.com/formation-angular-production/" %}
 

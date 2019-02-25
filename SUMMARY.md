@@ -167,4 +167,5 @@
 * [Angular](nos-formations/angular.md)
 * [Angular Architecture](nos-formations/angular-architecture.md)
 * [Angular Testing](nos-formations/angular-testing.md)
+* [Live Session](nos-formations/live-session.md)
 
