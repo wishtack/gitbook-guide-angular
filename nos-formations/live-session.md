@@ -6,7 +6,7 @@
 * Vous souhaitez **approfondir vos connaissances** sur un sujet particulier ?
 * Vous avez besoin de **Code Review** afin de repérer les axes d'amélioration ?
 
-Peu importe la raison, réservez une **Live Session** de la durée qui vous convient et à l'heure qui vous convient.
+Peu importe la raison, réservez une **Live Session** en choisissant l'heure et la durée qui vous conviennent le  mieux.
 
 Durant ces sessions, nous mettons toutes nos compétences et notre attention à votre disposition en **répondant à vos questions**, en **parcourant votre code** ensemble ou via des démonstrations à base de **Live Coding collaboratif**.
 

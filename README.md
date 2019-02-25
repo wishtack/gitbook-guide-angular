@@ -14,13 +14,15 @@ Après 5 ans de développement d'applications AngularJS / Angular, d'animation d
 
 ## Prochaines Sessions de Formation Angular
 
-### Formation Angular
+### [Formation Angular](https://guide-angular.wishtack.io/nos-formations/angular)
 
-{% embed url="https://blog.wishtack.com/formation-angular/" %}
+### [Formation Angular Architecture](https://guide-angular.wishtack.io/nos-formations/angular-architecture)
 
-### Formation Angular Production
+### [Formation Angular Testing](https://guide-angular.wishtack.io/nos-formations/angular-testing)
 
-{% embed url="https://blog.wishtack.com/formation-angular-production/" %}
+## Besoin d'aide ?
+
+### Réservez une [Live Session](https://guide-angular.wishtack.io/nos-formations/live-session) !
 
 ## Copyright
 
