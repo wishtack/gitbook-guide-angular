@@ -162,3 +162,9 @@
   * [Authentification et Autorisation](cookbook/authentification-et-autorisation.md)
   * [Remplacement Dynamique de Composants](cookbook/remplacement-dynamique-de-composants.md)
 
+## Nos Formations
+
+* [Angular](nos-formations/angular.md)
+* [Angular Architecture](nos-formations/angular-architecture.md)
+* [Angular Testing](nos-formations/angular-testing.md)
+
