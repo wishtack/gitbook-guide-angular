@@ -22,5 +22,13 @@
 
 {% embed url="https://blog.angularindepth.com/angular-question-rxjs-subscribe-vs-async-pipe-in-component-templates-c956c8c0c794" %}
 
+### RxJS Playground
+
+[https://observable-playground.github.io](https://observable-playground.github.io)
+
+{% embed url="https://observable-playground.github.io" %}
+
+
+
 
 
