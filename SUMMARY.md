@@ -161,6 +161,8 @@
 * [Cookbook](cookbook/README.md)
   * [Authentification et Autorisation](cookbook/authentification-et-autorisation.md)
   * [Remplacement Dynamique de Composants](cookbook/remplacement-dynamique-de-composants.md)
+  * [Lazy Loading without Router](https://medium.com/wishtack/angular-lazy-loading-without-router-471166580c86)
+  * [Setup a Mock ReSTful API](https://medium.com/wishtack/how-to-setup-a-mock-restful-api-in-minutes-571138586564)
 
 ## Nos Formations
 
