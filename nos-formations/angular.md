@@ -20,7 +20,6 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
             9 Avril 2019
         ],
         Lyon: [
-            25 Mars 2019,
             12 Mai 2019
         ],
         Paris: [
