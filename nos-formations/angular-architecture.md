@@ -39,8 +39,8 @@ Il est également l’auteur du [**Guide Angular**](https://guide-angular.wishta
 
 ### Project Structure
 
-* Shared Modules tips & tricks.
-* Factorisation du routing avec des "route resolvers".
+* SCAM Modules + tips & tricks.
+* Factorisation du routing.
 * View Modules.
 
 ### **Content Projection**
