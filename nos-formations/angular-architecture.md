@@ -14,7 +14,8 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
     prix: 500€ HT / personne,
     prochainesDates: {
         Lyon: [
-            16 Mai 2019
+            16 Mai 2019,
+            20 Juin 2019
         ]
     }
 }
@@ -22,7 +23,7 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
 
 ## Votre Formateur
 
-![Younes Jaaidi](https://wishtackblog.files.wordpress.com/2018/06/younes.png?w=200&h=200)
+![](../.gitbook/assets/younes-circle-small.png)
 
 Après 10 ans d’expérience en développement web et sécurité, Younes est convaincu que la qualité d’un produit repose principalement sur le **Collective Ownership** et la **qualité de code**. Son but est de propager cette culture de partage et d’améliorer la qualité des produits par l’échange et le levier de la Developer eXperience.
 
@@ -57,6 +58,14 @@ Il est également l’auteur du [**Guide Angular**](https://guide-angular.wishta
 ### State Management
 
 * Présentation des différentes approches : RxJS / NGRX / NGXS / Akita.
+
+### Observables et Reactive Programming
+
+* Utilisation des Observables.
+* Création des Observables.
+* Cold vs Hot Observables.
+* `BehaviorSubject`.
+* Les opérateurs les plus funs.
 
 ### **Routing**
 
