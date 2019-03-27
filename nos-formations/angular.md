@@ -14,7 +14,7 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
 ```javascript
 {
     durée: 3 jours,
-    prix: 1400€ HT / personne,
+    prix: 1500€ HT / personne,
     prochainesDates: {
         Luxembourg: [
             24 Avril 2019
