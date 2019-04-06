@@ -17,7 +17,7 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
     prix: 1500€ HT / personne,
     prochainesDates: {
         Luxembourg: [
-            24 Avril 2019
+            21 Mai 2019
         ],
         Lyon: [
             13 Mai 2019,
