@@ -173,3 +173,9 @@
 * [Angular Testing](nos-formations/angular-testing.md)
 * [Consultation à Distance](nos-formations/live-session.md)
 
+## Nos Guides
+
+* [Guide Agile](https://guide-agile.wishtack.io/)
+* [Guide API ReST](https://guide-api-rest.wishtack.io/)
+* [Guide NodeJS](https://guide-node-js.wishtack.io/)
+
