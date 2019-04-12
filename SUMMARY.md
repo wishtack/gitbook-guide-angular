@@ -166,12 +166,18 @@
   * [SCAM Modules](https://medium.com/wishtack/your-angular-module-is-a-scam-b4136ca3917b)
   * [Setup a Mock ReSTful API](https://medium.com/wishtack/how-to-setup-a-mock-restful-api-in-minutes-571138586564)
 
-## Nos Formations
+## Nos Formations & Services
 
 * [Angular](nos-formations/angular.md)
 * [Angular Architecture](nos-formations/angular-architecture.md)
 * [Angular Testing](nos-formations/angular-testing.md)
 * [Consultation à Distance](nos-formations/live-session.md)
+
+## Stay Tuned
+
+* [📝Medium](https://medium.com/wishtack)
+* [📬Newsletter](https://wishtack.us3.list-manage.com/subscribe?u=54b1aa1ab7bf68171c4080abf&id=03176a33e2)
+* [🐦Twitter](https://twitter.com/yjaaidi)
 
 ## Nos Guides
 
