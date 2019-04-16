@@ -21,7 +21,11 @@ Avec Angular, la majorité des applications ont la même structure de projet et 
 
 Dans la plupart des cas, vous éviterez les problèmes de compatibilité de dépendances en laissant l'équipe Angular s'en charger pour vous.
 
-En contrepartie, voici un exemple de mise en place d'un "preprocessor" sass sur une app React [https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md\#adding-a-css-preprocessor-sass-less-etc](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc)
+En contrepartie, voici un exemple de mise en place d'un "preprocessor" sass sur une app React:
+
+![source: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md\#adding-a-css-preprocessor-sass-less-etc](.gitbook/assets/react-before-react-scripts.png)
+
+Heureusement, les choses ont évolué depuis grâce à [create-react-app](https://facebook.github.io/create-react-app/) & react-scripts.
 
 ### Point de vue de Vue.js concernant Angular
 
