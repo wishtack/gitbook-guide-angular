@@ -6,7 +6,7 @@
 
 ## Informations / Réservation
 
-Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appelez-nous au [+33 9 70 44 44 58](tel:+33%209%2070%2044%2044%2058) pour toutes vos questions et réservations.
+Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appelez-nous au [+33 4 26 83 61 92](tel:+33426836192) pour toutes vos questions et réservations.
 
 ```javascript
 {
