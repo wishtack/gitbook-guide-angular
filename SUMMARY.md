@@ -37,6 +37,7 @@
     * [Décorateurs de Méthode & Paramètres](typescript/decorateurs/decorateurs-de-methode-and-parametres.md)
   * [Quelques Liens](typescript/quelques-liens.md)
 * [Tools](tools/README.md)
+  * [Clavier mécanique](tools/clavier-mecanique.md)
   * [Git](tools/git.md)
   * [Command Line](tools/command-line.md)
   * [NodeJS](tools/nodejs.md)
