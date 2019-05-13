@@ -7,6 +7,12 @@ La formation Angular **pragmatique** et focalisée sur les **bonnes pratiques**.
 * Découvrir les bases et les **bonnes pratiques** pour le développement d’applications webs et de **Progressive Web Apps** avec **Angular 7**.
 * Produire **rapidement** des applications **performantes**, **robustes** et **maintenables**.
 
+## Le Lieu
+
+Si les conditions le permettent, la formation aura lieu sur une péniche à Lyon.
+
+![P&#xE9;niche Formation Angular Lyon](../.gitbook/assets/peniche-lyon.png)
+
 ## Informations / Réservation
 
 Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appelez-nous au [+33 4 26 83 61 92](tel:+33426836192) pour toutes vos questions et réservations.
