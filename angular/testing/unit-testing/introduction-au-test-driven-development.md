@@ -1,6 +1,6 @@
-# 📹 Introduction au Test-Driven Development
+# 📺 Introduction au Test-Driven Development
 
-{% embed url="https://youtu.be/bDKLAWEAJ8g" caption="Vidéo d\'introduction au Test-Driven Development Angular" %}
+{% embed url="https://youtu.be/9tKp9AErIhs" caption="Vidéo d\'introduction au Test-Driven Development JavaScript" %}
 
 
 

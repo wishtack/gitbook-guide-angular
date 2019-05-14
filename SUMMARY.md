@@ -143,7 +143,7 @@
     * [Route Guards](angular/routing/route-guards.md)
   * [Testing](angular/testing/README.md)
     * [Unit-Testing](angular/testing/unit-testing/README.md)
-      * [📹 Introduction au Test-Driven Development](angular/testing/unit-testing/introduction-au-test-driven-development.md)
+      * [📺 Introduction au Test-Driven Development](angular/testing/unit-testing/introduction-au-test-driven-development.md)
       * [Jasmine](angular/testing/unit-testing/jasmine.md)
       * [Unit-Test Synchrone](angular/testing/unit-testing/unit-test-synchrone.md)
       * [Test-Driven Development](angular/testing/unit-testing/test-driven-development.md)
@@ -167,6 +167,8 @@
   * [Project Structure](https://medium.com/wishtack/a-scalable-angular-project-structure-63aca36a6cbc)
   * [SCAM Modules](https://medium.com/wishtack/your-angular-module-is-a-scam-b4136ca3917b)
   * [Setup a Mock ReSTful API](https://medium.com/wishtack/how-to-setup-a-mock-restful-api-in-minutes-571138586564)
+* [📺 Vidéos](videos/README.md)
+  * [Test-Driven Development](https://guide-angular.wishtack.io/angular/testing/unit-testing/introduction-au-test-driven-development)
 
 ## Nos Formations & Services
 
