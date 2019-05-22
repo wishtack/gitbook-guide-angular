@@ -69,6 +69,8 @@ Angular permet de mieux séparer les responsabilités avec une approche MVC _\(M
 
 Exploitation des 5 ans d'existence d'AngularJS et des retours de la communauté pour rectifier les erreurs de conception, faciliter le développement et gagner en performance et stabilité.
 
+![Angular Platform](.gitbook/assets/angular-platform.png)
+
 ## Testabilité comme priorité
 
 Angular fournit tous les outils nécessaires pour faciliter l'implémentation des tests unitaires et de tests e2e.
