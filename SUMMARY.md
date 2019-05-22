@@ -179,8 +179,8 @@
 
 ## Stay Tuned
 
-* [📝Medium](https://medium.com/wishtack)
-* [📬Newsletter](https://wishtack.us3.list-manage.com/subscribe?u=54b1aa1ab7bf68171c4080abf&id=03176a33e2)
+* [📬Actus](https://wishtack.us3.list-manage.com/subscribe?u=54b1aa1ab7bf68171c4080abf&id=03176a33e2)
+* [📝Blog](https://medium.com/wishtack)
 * [🐦Twitter](https://twitter.com/yjaaidi)
 
 ## Nos Guides
