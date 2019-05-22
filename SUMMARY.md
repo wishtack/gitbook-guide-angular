@@ -170,18 +170,19 @@
 * [📺 Vidéos](videos/README.md)
   * [Test-Driven Development](https://guide-angular.wishtack.io/angular/testing/unit-testing/introduction-au-test-driven-development)
 
+## Stay Tuned
+
+* [📬Actus](https://wishtack.us3.list-manage.com/subscribe?u=54b1aa1ab7bf68171c4080abf&id=03176a33e2)
+* [📝Blog](https://medium.com/wishtack)
+* [🐦Twitter](https://twitter.com/yjaaidi)
+* [📺Cours Vidéo](https://marmicode.teachable.com/)
+
 ## Nos Formations & Services
 
 * [Angular](nos-formations/angular.md)
 * [Angular Architecture](nos-formations/angular-architecture.md)
 * [Angular Testing](nos-formations/angular-testing.md)
 * [Consultation à Distance](nos-formations/live-session.md)
-
-## Stay Tuned
-
-* [📬Actus](https://wishtack.us3.list-manage.com/subscribe?u=54b1aa1ab7bf68171c4080abf&id=03176a33e2)
-* [📝Blog](https://medium.com/wishtack)
-* [🐦Twitter](https://twitter.com/yjaaidi)
 
 ## Nos Guides
 
