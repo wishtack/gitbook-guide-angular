@@ -8,7 +8,11 @@ Le succès de cette approche est fortement lié à l'émergence des **Microservi
 
 ![Reactive Programming Trends](../../.gitbook/assets/reactive-programming-trends.png)
 
+## The Reactive Manifesto
 
+{% embed url="https://www.reactivemanifesto.org/" caption="The Reactive Manifesto" %}
+
+[https://www.reactivemanifesto.org/](https://www.reactivemanifesto.org/)
 
 ## Exemple d'approche impérative
 
