@@ -14,7 +14,7 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
     prix: 500€ HT / personne,
     prochainesDates: {
         Lyon: [
-            3 Octobre 2019
+            12 Septembre 2019
         ]
     }
 }
