@@ -26,6 +26,7 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
             23 Juillet 2019
         ],
         Lyon: [
+            17 Juin 2019,
              9 Septembre 2019
         ],
         Paris: [
