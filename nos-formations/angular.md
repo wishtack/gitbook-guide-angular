@@ -4,7 +4,7 @@ La formation Angular **pragmatique** et focalisée sur les **bonnes pratiques**.
 
 ## Objectifs
 
-* Découvrir les bases et les **bonnes pratiques** pour le développement d’applications webs et de **Progressive Web Apps** avec **Angular 7**.
+* Découvrir les bases et les **bonnes pratiques** pour le développement d’applications webs et de **Progressive Web Apps** avec **Angular 8**.
 * Produire **rapidement** des applications **performantes**, **robustes** et **maintenables**.
 
 ## Le Lieu
@@ -23,15 +23,19 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
     prix: 1500€ HT / personne,
     prochainesDates: {
         Luxembourg: [
-            21 Mai 2019
+            23 Juillet 2019
         ],
         Lyon: [
-            17 Juin 2019
+            30 Septembre 2019
         ],
         Paris: [
             24 Juin 2019,
-            29 Juillet 2019
-        ]
+            29 Juillet 2019,
+            23 Septembre 2019,
+            28 Octobre 2019,
+             2 Décembre 2019,
+        ],
+        ChezVous: 'Quand vous voulez'
     }
 }
 ```
