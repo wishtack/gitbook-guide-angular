@@ -167,15 +167,13 @@
   * [Project Structure](https://medium.com/wishtack/a-scalable-angular-project-structure-63aca36a6cbc)
   * [SCAM Modules](https://medium.com/wishtack/your-angular-module-is-a-scam-b4136ca3917b)
   * [Setup a Mock ReSTful API](https://medium.com/wishtack/how-to-setup-a-mock-restful-api-in-minutes-571138586564)
-* [📺 Vidéos](videos/README.md)
-  * [Test-Driven Development](https://guide-angular.wishtack.io/angular/testing/unit-testing/introduction-au-test-driven-development)
 
 ## Stay Tuned
 
+* [📺Cours Vidéo](https://marmicode.teachable.com/)
 * [📬Actus](https://wishtack.us3.list-manage.com/subscribe?u=54b1aa1ab7bf68171c4080abf&id=03176a33e2)
 * [📝Blog](https://medium.com/wishtack)
 * [🐦Twitter](https://twitter.com/yjaaidi)
-* [📺Cours Vidéo](https://marmicode.teachable.com/)
 
 ## Nos Formations & Services
 
