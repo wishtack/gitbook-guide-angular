@@ -48,39 +48,18 @@ Il est également l’auteur du [**Guide Angular**](https://guide-angular.wishta
 * Principe, avantages et design patterns.
 * Multi-projection.
 * Template projection.
+* Alternatives aux Higher-Order Components.
 
 ### Dynamic Component Injection
 
 * Injection dynamique de composants.
 * Lazy loading de composants _\(sans routing\)_.
 
-### State Management
-
-* Présentation des différentes approches : RxJS / NGRX / NGXS / Akita.
-
-### Observables et Reactive Programming
-
-* Utilisation des Observables.
-* Création des Observables.
-* Cold vs Hot Observables.
-* `BehaviorSubject`.
-* Les opérateurs les plus funs.
-
 ### **Routing**
 
 * Routing tree.
 * Guards + redirect.
 * Lazy loading.
-
-### Authentication
-
-* HTTP Interceptors.
-* Bonnes pratiques.
-
-### Angular Elements
-
-* Fonctionnement d'Angular Elements.
-* Design patterns.
 
 ### Monorepo
 
