@@ -31,7 +31,8 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
              2 Décembre 2019,
         ],
         ChezVous: 'Quand vous voulez'
-    }
+    },
+    repasInclus: true
 }
 ```
 
