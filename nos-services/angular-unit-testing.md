@@ -21,9 +21,17 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
         Lyon: [
             12 Septembre 2019
         ]
-    }
+    },
+    repasInclus: true
 }
 ```
+
+### Déroulement de l'Atelier
+
+* **9h30** : Début de l'atelier.
+* **12h30 - 14h** : Déjeuner.
+* **17h30** : Fin de l'atelier
+* **17h30 - 19h** : Apéro-discute.
 
 ## Votre Formateur
 
