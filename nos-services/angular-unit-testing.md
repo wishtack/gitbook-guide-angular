@@ -1,8 +1,13 @@
-# Angular Architecture
+# Atelier Unit-Testing Angular
 
 ## Objectifs
 
-* Apprendre à structurer le code pour produire des applications **performantes**, **robustes** et **maintenables**.
+Lors de cet atelier, vous apprendrez :
+
+* à implémenter des tests unitaires pour vos applications Angular afin de gagner en **efficacité** et en **qualité,**
+* à choisir le bon type de tests à implémenter en fonction du contexte,
+* à découpler les tests du code,
+* à implémenter des tests unitaires **maintenables** et **compréhensibles**.
 
 ## Informations / Réservation
 
@@ -11,7 +16,7 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
 ```javascript
 {
     durée: 1 jour,
-    prix: 500€ HT / personne,
+    prix: 279€ HT / personne,
     prochainesDates: {
         Lyon: [
             12 Septembre 2019
@@ -33,60 +38,46 @@ Il est également l’auteur du [**Guide Angular**](https://guide-angular.wishta
 ## Prérequis
 
 * **Curiosité** et **culture Web**.
-* Avoir de l'expérience Angular ou avoir suivi la [formation Angular](angular.md).
+* Avoir de l'expérience Angular ou avoir suivi la [formation Angular](formation-angular.md).
+* Un ordinateur portable.
 
 ## Programme
 
-### Project Structure
+### Que faut-il tester et comment ?
 
-* SCAM Modules + tips & tricks.
-* Factorisation du routing.
-* View Modules.
+* Définition d'une unité de code.
 
-### **Content Projection**
+### Test-Driven Development
 
-* Principe, avantages et design patterns.
-* Multi-projection.
-* Template projection.
+* Origines et intérêt du Test-Driven Development.
+* Tips & tricks.
 
-### Dynamic Component Injection
+### Jest
 
-* Injection dynamique de composants.
-* Lazy loading de composants _\(sans routing\)_.
+* Avantages et inconvénients.
+* Mise en place de Jest.
 
-### State Management
+### Unit-Tests
 
-* Présentation des différentes approches : RxJS / NGRX / NGXS / Akita.
+* Implémentation de tests unitaires avec Jest en suivant une approche pilotée par les tests _\(ou Test-Driven Development\)_.
+* Implémentation de tests unitaires de :
+  * services,
+  * directives,
+  * pipes.
 
-### Observables et Reactive Programming
+### Unit-Tests de Composants
 
-* Utilisation des Observables.
-* Création des Observables.
-* Cold vs Hot Observables.
-* `BehaviorSubject`.
-* Les opérateurs les plus funs.
+* Implémentation de tests unitaires pour un composant.
+* Les différents types de tests : Integration vs Isolated vs Shallow.
+* Interaction avec le DOM.
 
-### **Routing**
+### Mocks, Spies & Stubs
 
-* Routing tree.
-* Guards + redirect.
-* Lazy loading.
+* Mock de requêtes HTTP.
+* Mock de services.
+* Fake services.
 
-### Authentication
+### Unit-Tests de Code Asynchrone
 
-* HTTP Interceptors.
-* Bonnes pratiques.
-
-### Angular Elements
-
-* Fonctionnement d'Angular Elements.
-* Design patterns.
-
-### Monorepo
-
-* Partager du code avec l'approche Monorepo.
-* Yarn workspaces.
-* Nx workspaces.
-
-\*\*\*\*
+* Présentation des différentes techniques.
 

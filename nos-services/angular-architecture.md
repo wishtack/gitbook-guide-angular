@@ -1,8 +1,8 @@
-# Angular Testing
+# Atelier Architecture Angular
 
 ## Objectifs
 
-* Apprendre à implémenter des tests automatisés pour vos applications Angular afin de gagner en **efficacité** et en **qualité**.
+* Apprendre à structurer le code pour produire des applications **performantes**, **robustes** et **maintenables**.
 
 ## Informations / Réservation
 
@@ -11,10 +11,10 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
 ```javascript
 {
     durée: 1 jour,
-    prix: 500€ HT / personne,
+    prix: 279€ HT / personne,
     prochainesDates: {
         Lyon: [
-            12 Septembre 2019
+            13 Septembre 2019
         ]
     }
 }
@@ -33,49 +33,60 @@ Il est également l’auteur du [**Guide Angular**](https://guide-angular.wishta
 ## Prérequis
 
 * **Curiosité** et **culture Web**.
-* Avoir de l'expérience Angular ou avoir suivi la [formation Angular](angular.md).
+* Avoir de l'expérience Angular ou avoir suivi la [formation Angular](formation-angular.md).
 
 ## Programme
 
-### Que faut-il tester et comment ?
+### Project Structure
 
-* Définition d'une unité de code.
+* SCAM Modules + tips & tricks.
+* Factorisation du routing.
+* View Modules.
 
-### Test-Driven Development
+### **Content Projection**
 
-* Origines et intérêt du Test-Driven Development.
-* Tips & tricks.
+* Principe, avantages et design patterns.
+* Multi-projection.
+* Template projection.
 
-### Unit-Tests
+### Dynamic Component Injection
 
-* Implémentation d'un test unitaire avec Jasmine & Karma.
-* Interaction avec le DOM.
+* Injection dynamique de composants.
+* Lazy loading de composants _\(sans routing\)_.
 
-### Mocks, Spies & Stubs
+### State Management
 
-* Mock de requêtes HTTP.
-* Mock de services.
-* Fake services.
+* Présentation des différentes approches : RxJS / NGRX / NGXS / Akita.
 
-### Jest
+### Observables et Reactive Programming
 
-* Avantages et inconvénients.
-* Configuration.
-* JSDOM.
+* Utilisation des Observables.
+* Création des Observables.
+* Cold vs Hot Observables.
+* `BehaviorSubject`.
+* Les opérateurs les plus funs.
 
-### **Tests E2E avec Protractor**
+### **Routing**
 
-* Fonctionnement.
-* Page objects, scenes et design patterns.
-* Mise en place de Protractor beautiful reporter.
-* Debug.
-* Browserstack.
+* Routing tree.
+* Guards + redirect.
+* Lazy loading.
 
-### **Tests E2E avec Cypress**
+### Authentication
 
-* Avantages et inconvénients.
-* Configuration.
-* Page objects, scenes et design patterns.
-* Mocks.
-* Debug.
+* HTTP Interceptors.
+* Bonnes pratiques.
+
+### Angular Elements
+
+* Fonctionnement d'Angular Elements.
+* Design patterns.
+
+### Monorepo
+
+* Partager du code avec l'approche Monorepo.
+* Yarn workspaces.
+* Nx workspaces.
+
+\*\*\*\*
 

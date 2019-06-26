@@ -1,4 +1,4 @@
-# Angular
+# Formation Angular
 
 La formation Angular **pragmatique** et focalisée sur les **bonnes pratiques**.
 

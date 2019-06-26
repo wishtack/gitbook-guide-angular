@@ -175,12 +175,12 @@
 * [📝Blog](https://medium.com/wishtack)
 * [🐦Twitter](https://twitter.com/yjaaidi)
 
-## Nos Formations & Services
+## Nos Services
 
-* [Angular](nos-formations/angular.md)
-* [Angular Architecture](nos-formations/angular-architecture.md)
-* [Angular Testing](nos-formations/angular-testing.md)
-* [Consultation à Distance](nos-formations/live-session.md)
+* [Formation Angular](nos-services/formation-angular.md)
+* [Atelier Unit-Testing Angular](nos-services/angular-unit-testing.md)
+* [Atelier Architecture Angular](nos-services/angular-architecture.md)
+* [Consultation à Distance](nos-services/live-session.md)
 
 ## Nos Guides
 
