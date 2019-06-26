@@ -11,7 +11,9 @@ Lors de cet atelier, vous apprendrez :
 
 ## Informations / Réservation
 
-Réservation : [https://www.weezevent.com/atelier-unit-testing-angular](https://www.weezevent.com/atelier-unit-testing-angular)
+**Réservation** : [https://www.weezevent.com/atelier-unit-testing-angular](https://www.weezevent.com/atelier-unit-testing-angular)
+
+{% embed url="https://www.weezevent.com/atelier-unit-testing-angular" caption="Ticketing" %}
 
 Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appelez-nous au [+33 4 26 83 61 92](tel:+33426836192) pour toutes vos questions.
 
