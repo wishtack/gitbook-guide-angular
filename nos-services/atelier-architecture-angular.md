@@ -11,7 +11,7 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
 ```javascript
 {
     durée: 1 jour,
-    prix: 279€ HT / personne,
+    prix: 277€ HT / personne,
     prochainesDates: {
         Lyon: [
             13 Septembre 2019
