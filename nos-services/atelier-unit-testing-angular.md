@@ -97,5 +97,5 @@ Après 10 ans d’expérience en développement web et sécurité, Younes est co
 
 En parallèle du développement de l’application [Wishtack](https://www.wishtack.com/), il anime des formations et accompagne des équipes allant de jeunes startups aux institutions européennes en passant par des banques ou sociétés de service. Durant ses interventions, il utilise ses compétences “cross-dev-and-security” afin de couvrir des sujets comme Angular, Node, Python, Agilité, Scrum, eXtreme Programming, DevOps, ReST APIs, Architecture, Sécurité…
 
-Il est également l’auteur du [**Guide Angular**](https://guide-angular.wishtack.io/) ****…et prend parfois le temps d’aller bavarder aux meetups et conférences sur différents sujets tels que [**Les Composants Interchangeables à l’AngularConnect**](https://youtu.be/nX_HhiqmFAI)
+Il est également l’auteur du [**Guide Angular**](https://guide-angular.wishtack.io/) ****…et prend parfois le temps d’aller bavarder aux meetups et conférences sur différents sujets tels que [**Les Composants Interchangeables à l’AngularConnect**](https://youtu.be/nX_HhiqmFAI) ****ou [**le Limbo à l'AngularUp**](https://www.youtube.com/watch?v=izGz7H-8yIk).
 
