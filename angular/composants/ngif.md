@@ -99,3 +99,9 @@ Pour répondre à ce genre de besoins, Angular propose des solutions bien plus �
 Chez Wishtack, nous considérons l'usage de "`if / else`" et de "`switch / case`" comme des codes smells peu importe le langage. Leur utilisation dans des templates est un code smell encore plus fort.
 {% endhint %}
 
+## Apprenez à unit-tester vos applications Angular avec nos recettes de dev sur Marmicode
+
+{% embed url="https://marmicode.fr" caption="Marmicode" %}
+
+
+

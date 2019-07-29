@@ -1,5 +1,9 @@
 # Unit-Testing
 
+## Apprenez à unit-tester vos applications Angular avec nos recettes de dev sur Marmicode
+
+{% embed url="https://marmicode.fr" caption="Marmicode" %}
+
 ## Configuration
 
 Grâce à [Angular CLI](../../../tools/angular-cli.md), **tous les outils** nécessaires à l'implémentation et l'exécution des tests unitaires **sont installés et pré-configurés** dès la création de l'application. Cf. fichier `karma.conf.js`.

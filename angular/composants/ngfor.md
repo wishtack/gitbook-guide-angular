@@ -50,3 +50,9 @@ Il est possible de récupérer d'autre informations telles que l'index de l'él�
 
 ![Exemple ngFor](../../.gitbook/assets/ng-for-example.png)
 
+## Apprenez à unit-tester vos applications Angular avec nos recettes de dev sur Marmicode
+
+{% embed url="https://marmicode.fr/" caption="Marmicode" %}
+
+
+
