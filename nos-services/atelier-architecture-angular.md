@@ -75,6 +75,8 @@ Si les conditions le permettent, la formation aura lieu sur une péniche à Lyon
 
 ![](../.gitbook/assets/younes-circle-small.png)
 
+Younes est formateur, coach en eXtreme Programming et **Google Developer Expert** en Angular et Web Technologies.
+
 Après 10 ans d’expérience en développement web et sécurité, Younes est convaincu que la qualité d’un produit repose principalement sur le **Collective Ownership** et la **qualité de code**. Son but est de propager cette culture de partage et d’améliorer la qualité des produits par l’échange et le levier de la Developer eXperience.
 
 En parallèle du développement de l’application [Wishtack](https://www.wishtack.com/), il anime des formations et accompagne des équipes allant de jeunes startups aux institutions européennes en passant par des banques ou sociétés de service. Durant ses interventions, il utilise ses compétences “cross-dev-and-security” afin de couvrir des sujets comme Angular, Node, Python, Agilité, Scrum, eXtreme Programming, DevOps, ReST APIs, Architecture, Sécurité…
