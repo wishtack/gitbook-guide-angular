@@ -1,4 +1,4 @@
-# Consultation à Distance
+# Consultation à Distance & Code Review
 
 ## Fonctionnement
 
@@ -17,6 +17,8 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
 ## Votre Accompagnateur
 
 ![](../.gitbook/assets/younes-circle-small.png)
+
+Younes est formateur, coach en eXtreme Programming et **Google Developer Expert** en Angular et Web Technologies.
 
 Après 10 ans d’expérience en développement web et sécurité, Younes est convaincu que la qualité d’un produit repose principalement sur le **Collective Ownership** et la **qualité de code**. Son but est de propager cette culture de partage et d’améliorer la qualité des produits par l’échange et le levier de la Developer eXperience.
 

@@ -180,7 +180,7 @@
 * [Formation Angular](nos-services/formation-angular.md)
 * [Atelier Unit-Testing Angular](nos-services/atelier-unit-testing-angular.md)
 * [Atelier Architecture Angular](nos-services/atelier-architecture-angular.md)
-* [Consultation à Distance](nos-services/live-session.md)
+* [Consultation à Distance & Code Review](nos-services/live-session.md)
 
 ## Nos Guides
 
