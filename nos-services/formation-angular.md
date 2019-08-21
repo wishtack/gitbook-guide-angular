@@ -16,19 +16,12 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
     durée: 3 jours,
     prix: 1500€ HT / personne,
     prochainesDates: {
-        Luxembourg: [
-            23 Juillet 2019
-        ],
-        Lyon: [
-            17 Juin 2019,
-             9 Septembre 2019
-        ],
         Paris: [
             24 Juin 2019,
             29 Juillet 2019,
             23 Septembre 2019,
             28 Octobre 2019,
-             2 Décembre 2019,
+             2 Decembre 2019,
         ],
         ChezVous: 'Quand vous voulez'
     },
@@ -122,6 +115,8 @@ Si les conditions le permettent, la formation aura lieu sur une péniche à Lyon
 ## Votre Formateur
 
 ![Younes Jaaidi](../.gitbook/assets/younes-circle-small.png)
+
+Younes est formateur, coach en eXtreme Programming et **Google Developer Expert** en Angular et Web Technologies.
 
 Après 10 ans d’expérience en développement web et sécurité, Younes est convaincu que la qualité d’un produit repose principalement sur le **Collective Ownership** et la **qualité de code**. Son but est de propager cette culture de partage et d’améliorer la qualité des produits par l’échange et le levier de la Developer eXperience.
 
