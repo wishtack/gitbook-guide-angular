@@ -15,7 +15,7 @@ getWeatherInfo(city: string, callback: (error, weatherInfo: WeatherInfo) => void
 Avec des "callbacks" classiques, nous sommes amenés à utiliser ces fonctions de la façon suivante :
 
 ```typescript
-const handleError => error => {
+const handleError = error => {
     console.error(`Something went wrong but I don't know how to handle it`);
 };
 
