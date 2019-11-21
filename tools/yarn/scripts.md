@@ -2,7 +2,7 @@
 
 ## Comment ?
 
-La section `scripts` du fichier du fichier `package.json` permet tout simplement de définir des tâches utilisées par les développeurs ou pour l'automatisation _\(intégration continue etc...\)._
+La section `scripts` du fichier `package.json` permet tout simplement de définir des tâches utilisées par les développeurs ou pour l'automatisation _\(intégration continue etc...\)._
 
 ```javascript
 {
