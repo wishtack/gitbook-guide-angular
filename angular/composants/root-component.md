@@ -51,7 +51,7 @@ export class AppComponent {
 
 ## `@Component`
 
-Ce décorateur prend un paramètre une configuration qui contient au minimum :
+Ce décorateur prend en paramètre une configuration qui contient au minimum :
 
 * **selector :** le sélecteur CSS qui permettra de lier le tag HTML de l'élément et le code du composant.
 * **template :** le template HTML utilisé par Angular pour générer le contenu de l'élément dans le DOM.
