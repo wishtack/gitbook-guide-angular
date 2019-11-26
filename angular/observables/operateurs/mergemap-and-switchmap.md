@@ -19,7 +19,7 @@ const getCurrentCity = () => {
 
 const getTemperature = city => {
     /* Produce the same temperature per city every 500ms. */
-    return interval(400)
+    return interval(500)
         .pipe(map(() => 100 / city.length));
 };
 ```
