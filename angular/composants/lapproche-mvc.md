@@ -32,5 +32,5 @@ Cela est bien sûr inévitable dans des cas très particuliers, localisés et ba
 
 ## MVVM \(Model-View-ViewModel\)
 
-L'approche MVVM est possible dans certains cas étant donné qu'il ne s'agit de rien d'autre qu'une approche MVC dans le Controller est implicite mais il vaut mieux l'éviter pour garder le contrôle de l'état de votre modèle.
+L'approche MVVM est possible dans certains cas étant donné qu'il ne s'agit de rien d'autre qu'une approche MVC dont le Controller est implicite mais il vaut mieux l'éviter pour garder le contrôle de l'état de votre modèle.
 
