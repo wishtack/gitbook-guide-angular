@@ -21,7 +21,7 @@ class HelloElement extends HTMLElement {
 }
 
 /* Registering the custom element. */
-customElements.define('wt-hello', HelloWorldElement);
+customElements.define('wt-hello', HelloElement);
 
 /* Injecting the element using innerHTML... */
 document.body.innerHTML = '<wt-hello></wt-hello>';

@@ -79,8 +79,7 @@ La façon la plus commune de définir un provider est la suivante :
         }
     ]
 })
-export class BookCore
-Module {
+export class BookCoreModule {
 }
 ```
 {% endcode-tabs-item %}
