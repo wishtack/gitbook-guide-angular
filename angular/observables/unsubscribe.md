@@ -4,7 +4,7 @@ La méthode `subscribe` retourne un objet de type `Subscription`.
 
 ```typescript
 import { interval } from 'rxjs';
-​
+
 const data$ = interval(1000);
 
 const subscription = data$.subscribe({
@@ -54,7 +54,7 @@ yarn add @wishtack/rx-scavenger
 ```
 
 ```typescript
-import { Scavenger } from 'rx-scavenger';
+import { Scavenger } from '@wishtack/rx-scavenger';
 
 @Component({
     ...
