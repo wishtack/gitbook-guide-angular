@@ -16,13 +16,6 @@ Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appele
     durée: 3 jours,
     prix: 1500€ HT / personne,
     prochainesDates: {
-        Paris: [
-            24 Juin 2019,
-            29 Juillet 2019,
-            23 Septembre 2019,
-            28 Octobre 2019,
-             2 Decembre 2019,
-        ],
         ChezVous: 'Quand vous voulez'
     },
     repasInclus: true

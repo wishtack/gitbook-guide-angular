@@ -11,21 +11,12 @@ Lors de cet atelier, vous apprendrez :
 
 ## Informations / Réservation
 
-**Réservation** : [https://www.weezevent.com/atelier-unit-testing-angular](https://www.weezevent.com/atelier-unit-testing-angular)
-
-{% embed url="https://www.weezevent.com/atelier-unit-testing-angular" caption="Ticketing" %}
-
 Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appelez-nous au [+33 4 26 83 61 92](tel:+33426836192) pour toutes vos questions.
 
 ```javascript
 {
     durée: 1 jour,
     prix: 277€ HT / personne,
-    prochainesDates: {
-        Lyon: [
-            12 Septembre 2019
-        ]
-    },
     repasInclus: true
 }
 ```
@@ -99,5 +90,5 @@ Après 10 ans d’expérience en développement web, Younes est convaincu que la
 
 Depuis plus de 4 ans et avec un focus autour d'Angular, Younes forme et accompagne des équipes allant de jeunes startups aux institutions européennes en passant par des banques ou sociétés de service.
 
-Il est également l’auteur du [**Guide Angular**](https://guide-angular.wishtack.io/) ****...et prend parfois le temps d’aller bavarder aux meetups et conférences sur différents sujets tels que [**Les Composants Interchangeables à l’AngularConnect**](https://youtu.be/nX_HhiqmFAI) ****ou [**le Limbo à l'AngularUp**](https://www.youtube.com/watch?v=izGz7H-8yIk).
+Il est également l’auteur du [**Guide Angular**](https://guide-angular.wishtack.io/) **\*\*...et prend parfois le temps d’aller bavarder aux meetups et conférences sur différents sujets tels que \[**Les Composants Interchangeables à l’AngularConnect**\]\(**[https://youtu.be/nX\_HhiqmFAI](https://youtu.be/nX_HhiqmFAI)**\) \*\***ou [**le Limbo à l'AngularUp**](https://www.youtube.com/watch?v=izGz7H-8yIk).
 
