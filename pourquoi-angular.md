@@ -31,7 +31,7 @@ Heureusement, les choses ont évolué depuis grâce à [create-react-app](https:
 
 ![Opinionated Frameworks vs. Flexibility](.gitbook/assets/flexibility.png)
 
-Source:  [https://vuejs.org/v2/guide/comparison.html\#Flexibility](https://vuejs.org/v2/guide/comparison.html#Flexibility)
+Source: [https://vuejs.org/v2/guide/comparison.html\#Flexibility](https://vuejs.org/v2/guide/comparison.html#Flexibility)
 
 ## TypeScript
 
@@ -45,7 +45,7 @@ On peut donc rapidement produire des applications webs donnant l'illusion d'une 
 
 L'idée est de voir le web comme des applications interreliées plutôt que des sites web contenant des pages.
 
-{% embed url="https://developers.google.com/web/progressive-web-apps/" %}
+{% embed url="https://developers.google.com/web/progressive-web-apps/" caption="" %}
 
 ## Abstraction
 
@@ -60,6 +60,11 @@ D'autres alternatives de cette couche existent pour utiliser Angular dans d'autr
 * `PlatformNativeScript` : Utilisation de Native Script pour faire le bridge entre le code Angular et le code natif Android ou IOS. [https://docs.nativescript.org/angular/start/introduction](https://docs.nativescript.org/angular/start/introduction)
 * `PlatformServer` : Pour générer le rendu HTML côté serveur _\(Server Rendering\)_. [https://universal.angular.io/](https://universal.angular.io/)
 * Ionic qui permet de produire des applications natives contenant des "web views" Angular [https://ionicframework.com/docs/](https://ionicframework.com/docs/)
+* Terminal [https://medium.com/angular-in-depth/angular-platforms-in-depth-part-3-rendering-angular-applications-in-terminal-117e4da9c0cc](https://medium.com/angular-in-depth/angular-platforms-in-depth-part-3-rendering-angular-applications-in-terminal-117e4da9c0cc)
+
+{% embed url="https://medium.com/angular-in-depth/angular-platforms-in-depth-part-3-rendering-angular-applications-in-terminal-117e4da9c0cc" caption="Angular Terminal" %}
+
+
 
 ## Separation of concerns
 
@@ -104,10 +109,11 @@ L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 
 * **Angular 5** : Novembre 2017
 * **Angular 6** : 3 mai 2018 _\(Angular CLI, Angular Material, Flex Layout etc... synchronisent leurs versions également\)_
 * **Angular 7** : 18 octobre 2018
+* **Angular 8** : 28 mai 2019
 
 Chaque version est **maintenue pendant 18 mois** et reste compatible avec les fonctionnalités de la version précédente qui deviennent dépréciées.
 
-[https://github.com/angular/angular/blob/master/docs/RELEASE\_SCHEDULE.md](https://github.com/angular/angular/blob/master/docs/RELEASE_SCHEDULE.md)
+[https://angular.io/guide/releases](https://angular.io/guide/releases)
 
 ### A propos d'AngularJS
 
