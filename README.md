@@ -1,6 +1,6 @@
-# Le Guide Angular par Wishtack
+# Le Guide Angular par Marmicode
 
-Après 5 ans de développement d'applications AngularJS / Angular, d'animation de formations _\(Angular 2 et + depuis la première release candidate de mai 2016\)_ et d'accompagnement d'entreprises dans leurs développements, nous avons décidé de produire cet ouvrage gratuit afin de partager notre expérience avec la communauté Angular.
+Après plusieurs années de développement, de consulting Angular, de formation et d'accompagnement d'entreprises dans leurs développements, nous avons décidé de produire cet ouvrage gratuit afin de partager notre expérience avec la communauté Angular.
 
 ## Nos objectifs
 
@@ -27,9 +27,9 @@ Après 5 ans de développement d'applications AngularJS / Angular, d'animation d
 ## Copyright
 
 {% hint style="warning" %}
-Ce guide est l'oeuvre et la propriété de la société Wishtack.
+Ce guide est l'oeuvre et la propriété de Marmicode.
 
-Sans accord contractuel, il ne peut être utilisé partiellement ou intégralement comme support de prestations rémunérées sauf par les employés de la société Wishtack.
+Il ne peut être utilisé partiellement ou intégralement comme support de prestations rémunérées sauf par l'équipe Marmicode.
 {% endhint %}
 
 En cas de doute, merci de contacter l'équipe Wishtack : [contact@wishtack.io](mailto:contact@wishtack.io)

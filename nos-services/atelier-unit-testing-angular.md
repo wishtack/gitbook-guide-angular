@@ -4,6 +4,8 @@ description: Fondamentaux & Test-Driven Design
 
 # Atelier Unit-Testing Angular
 
+![](../.gitbook/assets/workshop-angular-unit-testing.png)
+
 L’unit-testing ou plus particulièrement l’unit-testing front-end est indéniablement dans le top 3 des sujets les plus complexes associés au développement d’applications Angular.
 
 Face à cette complexité, il est tentant de renoncer mais à quel prix ? Certes, il est possible de développer une application sans tests unitaires mais est-ce réellement plus rapide ? Qu’advient-il de la maintenabilité du code quelques mois ou à peine quelques semaines plus tard ? Pourrons-nous refactoriser l’application et la déployer régulièrement en toute sérénité au fur et à mesure qu’elle se complexifie et qu’elle vieillit entre nos mains ?
