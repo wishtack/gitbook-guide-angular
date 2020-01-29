@@ -170,6 +170,7 @@
 
 ## Stay Tuned
 
+* [🎁Apprenez l'Unit-Testing avec un GDE](https://guide-angular.wishtack.io/nos-services/atelier-unit-testing-angular)
 * [🐦Suivez-moi !](https://twitter.com/intent/follow?screen_name=yjaaidi)
 * [📺Cours Vidéo](https://recettes.marmicode.fr/)
 * [📬Actus](https://wishtack.us3.list-manage.com/subscribe?u=54b1aa1ab7bf68171c4080abf&id=03176a33e2)
