@@ -1,6 +1,6 @@
 # Quelques Liens
 
-## Other Wishtack Resources
+## Other Resources
 
 ### Training Repository
 
@@ -12,19 +12,15 @@
 
 ### Wishtack's ReST API Guide
 
-[https://guide-api-rest.wishtack.io/](https://guide-api-rest.wishtack.io/)
-
-### Wishtack Auth Demo
-
-[https://github.com/wishtack/wt-angular-auth-demo](https://github.com/wishtack/wt-angular-auth-demo)
+[https://guide-api-rest.marmicode.fr](https://guide-api-rest.marmicode.fr)
 
 ### Wishtack Steroids
 
 [https://github.com/wishtack/wishtack-steroids](https://github.com/wishtack/wishtack-steroids)
 
-### Wishtack Services
+### Marmicode Services
 
-[https://wishtack.io/](https://wishtack.io/)
+[https://marmicode.io](https://marmicode.io)
 
 ## The Official Documentation
 
