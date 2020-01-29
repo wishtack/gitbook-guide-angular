@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Le Guide Angular par Wishtack](README.md)
+* [Le Guide Angular par Marmicode](README.md)
 * [Pourquoi Angular ?](pourquoi-angular.md)
 * [ECMAScript 6+](ecmascript-6+/README.md)
   * [Un Peu d'Histoire](ecmascript-6+/un-peu-dhistoire.md)

@@ -4,16 +4,16 @@
 
 Pour déclarer un service Angular, il suffit de créer une classe TypeScript et de la décorer avec le décorateur `@Injectable()`.
 
-{% code-tabs %}
-{% code-tabs-item title="book-repository.ts" %}
+{% tabs %}
+{% tab title="book-repository.ts" %}
 ```typescript
 @Injectable()
 export class BookRepository {
     ...
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 N'oubliez pas les parenthèses du décorateur `@Injectable()`.
@@ -27,17 +27,17 @@ Evitez de suffixer tous vos services et leurs fichiers respectivement avec les s
 
 En suffixant toutes les classes et instances par `Service`, on finit par perdre en lisibilité.
 
-Une classe _\(de type "helper" par exemple\)_ peut devenir un "service" ou cesser d'être un "service" du jour au lendemain, la frontière est fine. 
+Une classe _\(de type "helper" par exemple\)_ peut devenir un "service" ou cesser d'être un "service" du jour au lendemain, la frontière est fine.
 {% endhint %}
 
 {% hint style="success" %}
 La bonne pratique est de **toujours ajouter le décorateur** `@Injectable()` bien que celui-ci ne soit actuellement pas obligatoire tant que le service n'a pas de dépendances.
 {% endhint %}
 
-En essayant de l'injecter, 
+En essayant de l'injecter,
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.ts" %}
+{% tabs %}
+{% tab title="book-preview.component.ts" %}
 ```typescript
 @Component({...})
 export class BookPreviewComponent {
@@ -45,8 +45,8 @@ export class BookPreviewComponent {
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ... vous remarquerez l'erreur suivante :
 
@@ -68,8 +68,8 @@ Cela se fait généralement via la **propriété `providers` de la configuration
 
 La façon la plus commune de définir un provider est la suivante :
 
-{% code-tabs %}
-{% code-tabs-item title="book-core.module.ts" %}
+{% tabs %}
+{% tab title="book-core.module.ts" %}
 ```typescript
 @NgModule({
     providers: [
@@ -82,15 +82,15 @@ La façon la plus commune de définir un provider est la suivante :
 export class BookCoreModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Cela veut dire que pour fournir une instance de la classe `BookRepository`, il suffit de l'instancier en lui passant en paramètre les dépendances dont elle a besoin. Cf. [Injection d'un Service Angular](injection-dun-service-angular.md).
 
 Cette approche étant la plus commune, il est alors recommandé d'utiliser la syntaxe raccourcie suivante :
 
-{% code-tabs %}
-{% code-tabs-item title="book-core.module.ts" %}
+{% tabs %}
+{% tab title="book-core.module.ts" %}
 ```typescript
 @NgModule({
     providers: [
@@ -100,15 +100,15 @@ Cette approche étant la plus commune, il est alors recommandé d'utiliser la sy
 export class BookCoreModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ### `useValue`
 
 Utilisation d'une valeur "hardcoded".
 
-{% code-tabs %}
-{% code-tabs-item title="book-core.module.ts" %}
+{% tabs %}
+{% tab title="book-core.module.ts" %}
 ```typescript
 @NgModule({
     providers: [
@@ -121,8 +121,8 @@ Utilisation d'une valeur "hardcoded".
 export class BookCoreModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 Il est préférable d'éviter cette utilisation.
@@ -136,22 +136,22 @@ Dans le cas d'une constante, cf. [Class vs Injection Token](class-vs-injection-t
 
 Comme son nom l'indique, cette propriété permet de définir l'instanciation du service via une fonction.
 
-{% code-tabs %}
-{% code-tabs-item title="book-core.module.ts" %}
+{% tabs %}
+{% tab title="book-core.module.ts" %}
 ```typescript
 @NgModule({
     providers: [
         {
             provider: BookRepository,
             useFactory: () => {
-            
+
                 /* Useful for A/B testing. */
                 if (isBTeam) {
                     return new BookRepositoryV2();
                 }
-                
+
                 return new BookRepository();
-                
+
             }
         }
     ]
@@ -159,8 +159,6 @@ Comme son nom l'indique, cette propriété permet de définir l'instanciation du
 export class BookCoreModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-
+{% endtab %}
+{% endtabs %}
 

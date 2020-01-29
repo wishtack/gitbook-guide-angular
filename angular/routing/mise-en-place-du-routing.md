@@ -4,8 +4,8 @@
 
 Avant toute chose, il est nécessaire d'ajoute le tag `base` au `head` du fichier `index.html` de l'application :
 
-{% code-tabs %}
-{% code-tabs-item title="src/index.html" %}
+{% tabs %}
+{% tab title="src/index.html" %}
 ```markup
 <!doctype html>
 <html>
@@ -18,8 +18,8 @@ Avant toute chose, il est nécessaire d'ajoute le tag `base` au `head` du fichie
     </body>
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Ce tag indique **la base du `path` à partir de laquelle le "Routing" Angular rentre en jeu**.
 
@@ -35,8 +35,8 @@ La configuration du "Routing" est transmise au module `RouterModule` lors de son
 Par bonne pratique, il est recommandé de placer cette configuration dans un module dédié `AppRoutingModule` importé par le "root module" `AppModule`.
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="src/app/app-routing.module.ts" %}
+{% tabs %}
+{% tab title="src/app/app-routing.module.ts" %}
 ```typescript
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -67,11 +67,11 @@ export const appRouteList: Routes = [
 export class AppRoutingModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
-**`**` est une "wildcard"** qui "match" toutes les urls _\(sauf celles qui ont "match" les routes précédentes\)_.
+**\`**\` est une "wildcard"\*\* qui "match" toutes les urls _\(sauf celles qui ont "match" les routes précédentes\)_.
 
 **Il faut donc faire attention à l'ordre des "routes".**
 {% endhint %}
@@ -105,8 +105,8 @@ La configuration du "Routing" permet de définir quel composant afficher en fonc
 
 Pour **indiquer l'emplacement d'insertion du composant**, il faut utiliser la **directive `<router-outlet>`** directement dans le "root component" `AppComponent` _\(ou dans un "child component" dédié, e.g. `HomeLayoutComponent`\)_.
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.html" %}
+{% tabs %}
+{% tab title="app.component.html" %}
 ```markup
 <header>
 ...
@@ -116,8 +116,8 @@ Pour **indiquer l'emplacement d'insertion du composant**, il faut utiliser la **
 ...
 </footer>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 En fonction de la "route" visitée, le **composant associé sera alors injecté en dessous du tag `router-outlet`** _\(et non à l'intérieur ou à la place du tag contrairement à ce que l'on pourrait supposer\)_.
 
@@ -175,16 +175,16 @@ Il permet au composant associé à la "route" de **récupérer les paramètres v
 Les propriétés **`paramMap` et `queryParamMap` sont des `Observable`s** car par optimisation, en **naviguant vers la même route mais avec des paramètres différents** _\(e.g. `/books/123` =&gt; `/books/456`\)_, Angular **ne recharge pas le composant** mais propage les nouveaux paramètres via ces `Observable`s.
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-detail-view.component.ts" %}
+{% tabs %}
+{% tab title="book-detail-view.component.ts" %}
 ```typescript
 export class BookDetailViewComponent {
 
     book$: Observable<Book>;
-    
+
     constructor(private _activatedRoute: ActivatedRoute,
                 private _bookRepository: BookRepository) {
-                
+
         this.book$ = this._activatedRoute.paramMap
             .pipe(
                 map(paramMap => paramMap.get('bookId')),
@@ -192,11 +192,11 @@ export class BookDetailViewComponent {
             );
 
     }
-    
+
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Pour simplifier la récupération des paramètres, **il est également possible d'utiliser la propriété** **`snapshot`** qui contient l'état actuel de la route _\(e.g. : `snapshot.paramMap.get('bookId')`\)_. **Le risque dans ce cas est de ne pas mettre à jour la vue** en cas de navigation vers la même route avec des paramètres différents.
 
@@ -209,6 +209,4 @@ Le `Router` est le service principal du "Routing". Il permet de :
 * construire et parser les urls de "Routing",
 * vérifier si une "Route" est actuellement visitée,
 * ...
-
-
 

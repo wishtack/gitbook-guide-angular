@@ -2,8 +2,8 @@
 
 Supposons que nous disposons dans notre composant `app`, d'une liste `bookList` contenant une liste d'instance d'une classe `Book` que nous souhaitons afficher.
 
-{% code-tabs %}
-{% code-tabs-item title="book/book.ts" %}
+{% tabs %}
+{% tab title="book/book.ts" %}
 ```typescript
 export class Book {
 
@@ -15,11 +15,11 @@ export class Book {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.ts" %}
+{% tabs %}
+{% tab title="app.component.ts" %}
 ```typescript
 import { Book } from './book/book';
 
@@ -35,8 +35,8 @@ export class AppComponent {
     ];
 };
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Laissez bien sûr l'IDE s'occuper des imports via l'auto-complete ou l'auto-import _\(Alt + Enter chez JetBrains\)_.
@@ -48,18 +48,18 @@ Laissez bien sûr l'IDE s'occuper des imports via l'auto-complete ou l'auto-impo
 
 Il serait intéressant de déléguer l'affichage de chaque `book` au composant `book-preview` que nous pourrons réutiliser plus tard dans d'autres contextes.
 
-Dans ce cas, nous séparons les responsabilités entre le composant `app` et le composant `book-preview`. 
+Dans ce cas, nous séparons les responsabilités entre le composant `app` et le composant `book-preview`.
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.html" %}
+{% tabs %}
+{% tab title="app.component.html" %}
 ```markup
 <!-- Display one book-preview component for each book... -->
 <!-- ...but we need to find some way to pass the book to each component. -->
 <wt-book-preview
         *ngFor="let book of bookList"></wt-book-preview>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Container Component _\(ou Smart Component\)_
 
@@ -73,7 +73,7 @@ Il est donc un "Presentational Component" qui est débarrassé de la "business l
 
 ## Article plus détaillé sur le sujet
 
-{% embed url="https://blog.wishtack.com/2017/05/05/the-guide-to-building-quality-angular-2-components/" %}
+{% embed url="https://blog.wishtack.com/2017/05/05/the-guide-to-building-quality-angular-2-components/" caption="" %}
 
 ## Interaction entre Composants
 

@@ -51,8 +51,8 @@ Cette fonction prend deux paramètres :
 Attention à **ne pas confondre la fonction `inject`** du module **`@angular/core/testing`** avec celle du module **`@angular/core`** qui sert à injecter des services dans les factories `factory: () => new MyService(inject(MyDep))` _\(Cf._ [_https://github.com/angular/angular/blob/master/packages/examples/core/di/ts/injector\_spec.ts\#L70_](https://github.com/angular/angular/blob/master/packages/examples/core/di/ts/injector_spec.ts#L70)_\)_.
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="picky-weather-station.ts" %}
+{% tabs %}
+{% tab title="picky-weather-station.ts" %}
 ```typescript
 @Injectable({
     providedIn: 'root'
@@ -65,11 +65,11 @@ class PickyWeatherStation {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="picky-weather-station.spec.ts" %}
+{% tabs %}
+{% tab title="picky-weather-station.spec.ts" %}
 ```typescript
 describe('PickyWeatherStation', () => {
 
@@ -90,8 +90,8 @@ describe('PickyWeatherStation', () => {
 
 });
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 La fonction `inject` peut être utilisée **directement autour de la fonction de "spec"** mais il est généralement plus simple d'ajouter un **`beforeEach` pour chaque service** afin d'éviter les problèmes liés à l'ordre des tokens d'injection et le refactoring en général.

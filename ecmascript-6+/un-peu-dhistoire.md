@@ -14,5 +14,3 @@
 * **Juin 2017 :** Finalisation du standard ECMAScript 8.
 * **Juin 2018 :** Finalisation du standard ECMAScript 9.
 
-
-

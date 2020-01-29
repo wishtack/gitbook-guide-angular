@@ -131,5 +131,3 @@ Le résultat devient :
 ...
 ```
 
-
-

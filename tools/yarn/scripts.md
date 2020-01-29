@@ -129,7 +129,7 @@ A vous de choisir.
 {% endhint %}
 
 {% hint style="danger" %}
-Pour remédier à certains de ces problèmes et apporter de nouvelles fonctionnalités, l'équipe NPM a produit une nouvelle commande `npx` que l'on vous recommande d'éviter principalement  pour des raisons de sécurité.  
+Pour remédier à certains de ces problèmes et apporter de nouvelles fonctionnalités, l'équipe NPM a produit une nouvelle commande `npx` que l'on vous recommande d'éviter principalement pour des raisons de sécurité.  
 **Le danger de cette commande est qu'elle installe automatiquement le module que vous lui passez en paramètre et l'exécute immédiatement.**
 
 Une typo et vous êtes cuits si vous tombez sur module malveillant.
@@ -148,10 +148,4 @@ Fiouf ! Nous venons d'installer inconsciemment le module run \([https://yarnpkg.
 
 > StackOverflow + Social Engineering = Remote Code Execution
 {% endhint %}
-
-
-
-
-
-
 

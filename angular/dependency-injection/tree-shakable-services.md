@@ -4,12 +4,12 @@ Pour éviter les problèmes décrits précédemment _\(Cf._ [_Portée des Servic
 
 ## Bye `providers`, welcome `providedIn`!
 
-Désormais, les définitions du "provider" et de la portée du service peuvent se faire directement au niveau du décorateur `@Injectable`  du service.
+Désormais, les définitions du "provider" et de la portée du service peuvent se faire directement au niveau du décorateur `@Injectable` du service.
 
 Il suffit alors de déclarer un service de cette façon :
 
-{% code-tabs %}
-{% code-tabs-item title="book-repository.ts" %}
+{% tabs %}
+{% tab title="book-repository.ts" %}
 ```typescript
 @Injectable({
     providedIn: 'root'
@@ -17,8 +17,8 @@ Il suffit alors de déclarer un service de cette façon :
 export class BookRepository {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ... pour pouvoir ensuite l'injecter partout dans l'application.
 
@@ -30,8 +30,8 @@ Il est également possible de sélectionner un module _\(`providedIn: BookCoreMo
 
 Il est ensuite possible de personnaliser l'instanciation avec `useValue`, `useClass`, `useFactory` etc...
 
-{% code-tabs %}
-{% code-tabs-item title="book-repository.ts" %}
+{% tabs %}
+{% tab title="book-repository.ts" %}
 ```typescript
 @Injectable({
     providedIn: 'root',
@@ -42,8 +42,8 @@ Il est ensuite possible de personnaliser l'instanciation avec `useValue`, `useCl
 export class BookRepository {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Avantages
 

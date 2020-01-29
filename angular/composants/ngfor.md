@@ -8,8 +8,8 @@ La directive structurelle `ngFor` permet de boucler sur un array et d'injecter l
 </ul>
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.ts" %}
+{% tabs %}
+{% tab title="src/app.component.ts" %}
 ```typescript
 export class AppComponent {
     bookList = [
@@ -22,8 +22,8 @@ export class AppComponent {
     ];
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Il est possible de récupérer d'autre informations telles que l'index de l'élément :
 
@@ -33,8 +33,8 @@ Il est possible de récupérer d'autre informations telles que l'index de l'él�
 * `first` : indique si l'élément est à la première position.
 * `last` : indique si l'élément est à la dernière position.
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.html" %}
+{% tabs %}
+{% tab title="src/app.component.html" %}
 ```markup
 <ul>
     <li *ngFor="let book of bookList; let index = index; let isFirst = first; let isOdd = odd;">
@@ -45,14 +45,12 @@ Il est possible de récupérer d'autre informations telles que l'index de l'él�
     </li>
 </ul>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ![Exemple ngFor](../../.gitbook/assets/ng-for-example.png)
 
 ## Apprenez à unit-tester vos applications Angular avec nos recettes de dev sur Marmicode
 
 {% embed url="https://marmicode.fr/" caption="Marmicode" %}
-
-
 

@@ -6,21 +6,21 @@ Mieux que le contrôle des attributs, le "property binding" nous permet de contr
 
 Ce qui donne la syntaxe suivante :
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.html" %}
+{% tabs %}
+{% tab title="src/app.component.html" %}
 ```markup
 <img [alt]="bookName" [src]="bookPictureUrl">
 
 
 <button type="button" [disabled]="!isAvailable">BUY</button>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Ou en laissant le code respirer :
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.html" %}
+{% tabs %}
+{% tab title="src/app.component.html" %}
 ```markup
 <img
         [alt]="bookName"
@@ -30,13 +30,13 @@ Ou en laissant le code respirer :
         type="button"
         [disabled]="!isAvailable">BUY</button>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Les données proviennent encore du code TypeScript du composant.
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.ts" %}
+{% tabs %}
+{% tab title="src/app.component.ts" %}
 ```typescript
 ...
 
@@ -48,8 +48,8 @@ export class AppComponent {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ![Exemple de &quot;property binding&quot; Angular](../../.gitbook/assets/property-binding-example.png)
 

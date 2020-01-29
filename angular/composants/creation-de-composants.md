@@ -28,7 +28,7 @@ Cela génère le contenu suivant en respectant le "[style guide](https://angular
 * `book-preview.component.scss` : Fichier CSS du composant. Dans notre cas, le fichier a une extension `.scss` car nous avons opté pour le [SASS](https://sass-lang.com/) en l'indiquant dans notre configuration `yarn ng set defaults.styleExt=scss`.
 * `book-preview.component.spec.ts` : Squelette des tests unitaires du composant .
 
-... et met à jour le fichier `app.module.ts` dont nous analyserons le contenu [plus tard]().
+... et met à jour le fichier `app.module.ts` dont nous analyserons le contenu [plus tard](creation-de-composants.md).
 
 {% hint style="info" %}
 N'oubliez pas d'ajouter et de "commit" les fichiers générés et modifiés.
@@ -38,14 +38,14 @@ Nous pouvons désormais utilisé notre nouveau composant dans le template du com
 
 ![Insertion d&apos;un composant](../../.gitbook/assets/intellij-component-completion.gif)
 
-{% code-tabs %}
-{% code-tabs-item title="src/app/app.component.html" %}
+{% tabs %}
+{% tab title="src/app/app.component.html" %}
 ```markup
 <wt-book-preview></wt-book-preview>
 <wt-book-preview></wt-book-preview>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ![Contenu par d&#xE9;faut du composant](../../.gitbook/assets/book-preview-empty.png)
 
@@ -75,6 +75,4 @@ yarn generate:component book/book-preview
 
 ... au lieu de devoir expliquer la commande `ng g c` à chaque nouvel arrivant.
 {% endhint %}
-
-
 

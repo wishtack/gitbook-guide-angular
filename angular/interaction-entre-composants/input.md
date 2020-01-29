@@ -2,7 +2,7 @@
 
 ## 1. Property Binding
 
-Pour transmettre des données à un "child component", nous allons communiquer avec ce dernier de la même façon que nous contrôlons les propriétés d'un élément natif, c'est à dire à l'aide du [Property Binding](../composants/property-binding.md)  :
+Pour transmettre des données à un "child component", nous allons communiquer avec ce dernier de la même façon que nous contrôlons les propriétés d'un élément natif, c'est à dire à l'aide du [Property Binding](../composants/property-binding.md) :
 
 ```markup
 <wt-book-preview [book]="bookList[0]"></wt-book-preview>
@@ -10,13 +10,13 @@ Pour transmettre des données à un "child component", nous allons communiquer a
 
 On obtient alors un "set" implicite de la propriété `book` de l'instance du composant `BookPreviewComponent.`
 
-{% code-tabs %}
-{% code-tabs-item title="Sous le capot" %}
+{% tabs %}
+{% tab title="Sous le capot" %}
 ```typescript
 bookPreviewComponent.book = this.bookList[0];
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Remarquez la similarité avec le [Property Binding](../composants/property-binding.md) sur des éléments natifs.
@@ -25,13 +25,9 @@ Remarquez la similarité avec le [Property Binding](../composants/property-bindi
 <button [disabled]="!isEnabled">
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="Sous le capot" %}
 ```typescript
 button.disabled = !this.isEnabled;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 {% endhint %}
 
 ## 2. Déclaration de la propriété
@@ -48,16 +44,16 @@ Can't bind to 'book' since it isn't a known property of 'wt-book-preview'.
 
 En effet, le composant book-preview n'a pas de propriété `book`. Il faut donc la déclarer :
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.ts" %}
+{% tabs %}
+{% tab title="book-preview.component.ts" %}
 ```typescript
 ...
 export class BookPreviewComponent {
     book: Book;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ... mais heureusement, cela ne suffit pas et nous obtenons toujours la même erreur.
 
@@ -65,8 +61,8 @@ export class BookPreviewComponent {
 
 Par défaut, aucune propriété de composant ne peut être modifiée par [Property Binding](../composants/property-binding.md). Il faut donc définir les propriétés pouvant servir d' "input" au composant en ajoutant simplement le décorateur `@Input()`.
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.ts" %}
+{% tabs %}
+{% tab title="book-preview.component.ts" %}
 ```typescript
 import { Input } from '@angular/core';
 
@@ -75,8 +71,8 @@ export class BookPreviewComponent {
     @Input() book: Book;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Voyez ce décorateur comme un contrôle vous permettant de définir la visibilité d'une propriété d'un composant.
 
@@ -88,8 +84,8 @@ En réalité, `Input` est une "factory" qui retourne un décorateur. Si vous l'u
 
 ## Résultat
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.ts" %}
+{% tabs %}
+{% tab title="app.component.ts" %}
 ```typescript
 ...
 export AppComponent {
@@ -103,37 +99,37 @@ export AppComponent {
     ];
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.html" %}
+{% tabs %}
+{% tab title="app.component.html" %}
 ```markup
 <wt-book-preview
         *ngFor="let book of bookList"
         [book]="book"></wt-book-preview>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.ts" %}
+{% tabs %}
+{% tab title="book-preview.component.ts" %}
 ```typescript
 ...
 export class BookPreviewComponent {
     book: Book;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.html" %}
+{% tabs %}
+{% tab title="book-preview.component.html" %}
 ```markup
 <div>{{ book.title }}</div>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ![](../../.gitbook/assets/component-interaction-input.jpg)
 

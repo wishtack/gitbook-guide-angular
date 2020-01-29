@@ -17,8 +17,8 @@ bookRepository.getBookList()
 
 Ce service retourne un `Observable`. La **transformation** des données doit donc se faire **avec un opérateur dans le service**.
 
-{% code-tabs %}
-{% code-tabs-item title="book-repository.ts" %}
+{% tabs %}
+{% tab title="book-repository.ts" %}
 ```typescript
 @Injectable({
     providedIn: 'root'
@@ -46,8 +46,8 @@ export class BookRepository {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## Astuce : n'oubliez pas les metadata
 

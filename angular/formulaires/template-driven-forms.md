@@ -9,8 +9,8 @@ La [Directive](../directives/) `ngModel` est au coeur des "Template-driven Forms
 Elle permet principalement de **"binder" dans les deux sens le "model" avec la "view"**.  
 C'est ce que l'on appelle le "**Two-way Binding**".
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.ts" %}
+{% tabs %}
+{% tab title="book-form.component.ts" %}
 ```typescript
 @Component({
     templateUrl: './book-form.component.html'
@@ -19,11 +19,11 @@ export class BookFormComponent {
     bookTitle: string;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.html" %}
+{% tabs %}
+{% tab title="book-form.component.html" %}
 ```markup
 <form>
     <input
@@ -31,8 +31,8 @@ export class BookFormComponent {
         [(ngModel)]="bookTitle">
 </form>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 A chaque modification du "model", la "view" sera mise à jour et inversement.
 
@@ -86,8 +86,8 @@ export class BookModule {
 
 En utilisant le template HTML suivant :
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.html" %}
+{% tabs %}
+{% tab title="book-preview.component.html" %}
 ```markup
 <form>
 
@@ -99,13 +99,13 @@ En utilisant le template HTML suivant :
             name="title"
             type="text"
             [(ngModel)]="bookTitle">
-    
+
     <div>{{ bookTitle }}</div>
 
 </form>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ... on peut constater le fonctionnement du "Two-way Binding" :
 
@@ -115,8 +115,8 @@ En utilisant le template HTML suivant :
 
 Pour détecter le "submit" du formulaire, il faut utiliser l'`Output` `ngSubmit` sur l'élément `form`.
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.html" %}
+{% tabs %}
+{% tab title="book-form.component.html" %}
 ```markup
 <form (ngSubmit)="submitBook()">
 ​
@@ -124,21 +124,21 @@ Pour détecter le "submit" du formulaire, il faut utiliser l'`Output` `ngSubmit`
             name="title"
             type="text"
             [(ngModel)]="bookTitle">
-            
+
     <button type="submit">SUBMIT</button>
 ​
 </form>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.ts" %}
+{% tabs %}
+{% tab title="book-form.component.ts" %}
 ```typescript
 export class BookFormComponent {
 
     bookTitle: string;
-    
+
     submitBook() {
         console.log(this.bookTitle);
         /* Reset book's title. */
@@ -147,11 +147,11 @@ export class BookFormComponent {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="success" %}
-**Préférez** le "listener" de `submit` _\(via l'**`Output` `ngSubmit`**\)_ sur le formulaire **plutôt que le "listener" de `click`** sur les boutons.  
+**Préférez** le "listener" de `submit` _\(via l'**`Output` `ngSubmit`**\)_ sur le formulaire **plutôt que le "listener" de `click`** sur les boutons.
 {% endhint %}
 
 ### `submit` vs `ngSubmit`
@@ -176,8 +176,8 @@ L'un des principaux problème des "Template-driven Forms" est le **non respect d
 
 Supposons que le composant `BookFormComponent` décrit précédemment serve à éditer un objet `Book`.
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.ts" %}
+{% tabs %}
+{% tab title="book-form.component.ts" %}
 ```typescript
 export class BookFormComponent {
 
@@ -188,11 +188,11 @@ export class BookFormComponent {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.html" %}
+{% tabs %}
+{% tab title="book-form.component.html" %}
 ```markup
 <form (ngSubmit)="submitBook()">
 
@@ -205,8 +205,8 @@ export class BookFormComponent {
 
 </form>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Le "Two-way Binding" de la directive `ngModel` **modifie directement la propriété `title` de l'objet `book` transmis par le composant parent**.
 

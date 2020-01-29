@@ -10,8 +10,8 @@ La configuration du "Lazy Loading" se fait au niveau du "Routing".
 
 Le module de "Routing" `AppRoutingModule` peut **déléguer la gestion du "Routing" d'une partie de l'application à un autre module**. Ce module "Lazy Loaded" sera donc **chargé de façon asynchrone à la visite des "routes" dont il est en charge**.
 
-{% code-tabs %}
-{% code-tabs-item title="tu" %}
+{% tabs %}
+{% tab title="tu" %}
 ```typescript
 @NgModule({
     declarations: [
@@ -27,11 +27,11 @@ Le module de "Routing" `AppRoutingModule` peut **déléguer la gestion du "Routi
 export class AppModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="src/app/app-routing.module.ts" %}
+{% tabs %}
+{% tab title="src/app/app-routing.module.ts" %}
 ```typescript
 export const appRouteList: Routes = [
     {
@@ -60,11 +60,11 @@ export const appRouteList: Routes = [
 export class AppRoutingModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="src/app/views/book/book-routing.module.ts" %}
+{% tabs %}
+{% tab title="src/app/views/book/book-routing.module.ts" %}
 ```typescript
 export const bookRouteList: Routes = [
     {
@@ -86,8 +86,8 @@ export const bookRouteList: Routes = [
 export class BookRoutingModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Cette configuration **délègue le "Routing"** de toute la partie **`/book/...`** de l'application **au module `BookRoutingModule`**.
 
@@ -112,13 +112,13 @@ loadChildren: () => import('./views/book/book-routing.module')
 
 ### Résultat du "build"
 
-En analysant le résultat du "build" dans le dossier `dist`,  on peut remarquer la création d'un nouveau fichier `0.9b8cc2f6fc3b76db8fd7.js`. Il s'agit du "**chunk**" contenant le code associé à la "Routed Feature Module" `BookRoutingModule`.
+En analysant le résultat du "build" dans le dossier `dist`, on peut remarquer la création d'un nouveau fichier `0.9b8cc2f6fc3b76db8fd7.js`. Il s'agit du "**chunk**" contenant le code associé à la "Routed Feature Module" `BookRoutingModule`.
 
 Tant que `BookModule` n'est importé que par `BookRoutingModule`, tout le code associé à ce module sera inclus dans le même "chunk".
 
 ## `forRoot` vs `forChild`
 
-**Seul le module  `AppRoutingModule` importe le module `RouterModule` avec la méthode statique `forRoot`** afin de définir le "Routing" racine et la configuration du router via le second paramètre.
+**Seul le module `AppRoutingModule` importe le module `RouterModule` avec la méthode statique `forRoot`** afin de définir le "Routing" racine et la configuration du router via le second paramètre.
 
 Les "**Child Routing Modules"** importent le `RouterModule` avec la méthode `forChild`.
 

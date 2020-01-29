@@ -49,25 +49,25 @@ Cette méthode est **appelée à chaque demande d'accès à la "route"** ; elle 
 
 Il est donc possible d'attendre le résultat d'un traitement asynchrone pour décider d'autoriser l'accès ou non.
 
-{% code-tabs %}
-{% code-tabs-item title="is-signed-in.guard.ts" %}
+{% tabs %}
+{% tab title="is-signed-in.guard.ts" %}
 ```typescript
 @Injectable({
     providedIn: 'root'
 })
 export class IsSignedInGuard implements CanActivate {
-    
+
     constructor(private _session: Session) {
     }
-    
+
     canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
         return this._session.isSignedIn();
     }
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 En cas de refus d'accès, il est possible de **rediriger l'utilisateur vers une autre "route"** "manuellement" en injectant le service "Router" par exemple :
@@ -76,17 +76,17 @@ En cas de refus d'accès, il est possible de **rediriger l'utilisateur vers une 
     constructor(private _router: Router,
                 private _session: Session) {
     }
-    
+
     canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
-    
+
         const isSignedIn = this._session.isSignedIn();
-        
+
         if (isSignedIn !== true) {
             this._router.navigate([...]);
         }
-        
+
         return isSignedIn;
-        
+
     }
 ```
 {% endhint %}
@@ -107,8 +107,6 @@ La "Guard" appelle la méthode `isDirty` du composant `ProfileViewComponent` pou
 
 Malheureusement, la "Guard" est fortement couplée avec le composant `ProfileViewComponent`.
 
-{% code-tabs %}
-{% code-tabs-item title="is-not-dirty.guard.ts" %}
 ```typescript
 @Injectable({
     providedIn: 'root'
@@ -124,11 +122,7 @@ export class IsNotDirtyGuard implements CanDeactivate<ProfileViewComponent> {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="profile-view.component.ts" %}
 ```typescript
 export class ProfileViewComponent {
 
@@ -138,15 +132,11 @@ export class ProfileViewComponent {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 {% endhint %}
 
 {% hint style="success" %}
 Pensez à associer la "Guard" à une interface plutôt qu'au composant directement.
 
-{% code-tabs %}
-{% code-tabs-item title="is-not-dirty.guard.ts" %}
 ```typescript
 export interface IsDirty {
     isDirty(): boolean | Observable<boolean>;
@@ -166,8 +156,6 @@ export class IsNotDirtyGuard implements CanDeactivate<IsDirty> {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 ```typescript
 export class ProfileViewComponent implements IsDirty {

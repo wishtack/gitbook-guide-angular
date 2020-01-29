@@ -34,13 +34,11 @@ document.body.appendChild(document.createElement('wt-hello'));
 
 [https://stenciljs.com/](https://stenciljs.com/)
 
-{% embed url="https://stenciljs.com/" %}
+{% embed url="https://stenciljs.com/" caption="" %}
 
 [https://github.com/Polymer/lit-element](https://github.com/Polymer/lit-element)
 
-{% embed url="https://github.com/Polymer/lit-element" %}
-
-
+{% embed url="https://github.com/Polymer/lit-element" caption="" %}
 
 ## Separation of Concerns
 
@@ -49,6 +47,4 @@ Les composants permettent une meilleure décomposition de l'application, facilit
 ## Isolement
 
 Chaque composant est isolé des autres composants. Il n'hérite pas implicitement des attributs des composants parents.
-
-
 

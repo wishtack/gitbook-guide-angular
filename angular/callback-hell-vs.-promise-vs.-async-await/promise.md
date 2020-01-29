@@ -28,6 +28,9 @@ Cette fonction a la particularité de retourner une `Promise`.
 
 ```typescript
 fetch('https://www.googleapis.com/books/v1/volumes?q=extreme%20programming')
+    .then(response => {
+        console.log(response.status);
+    });
 ```
 
 Pour accéder au "body" de la response, il faut utiliser la méthode `Response.json` qui retourne une `Promise` également.

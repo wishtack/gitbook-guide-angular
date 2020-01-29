@@ -107,5 +107,3 @@ Cela permet de détecter les problèmes de conception ou d'implémentation tels 
 {% endtab %}
 {% endtabs %}
 
-
-

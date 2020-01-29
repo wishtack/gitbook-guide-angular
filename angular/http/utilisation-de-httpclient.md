@@ -4,8 +4,8 @@
 
 `HttpClient` est un service Angular ; on peut donc le récupérer avec la [Dependency Injection](../dependency-injection/).
 
-{% code-tabs %}
-{% code-tabs-item title="book-search.component.ts" %}
+{% tabs %}
+{% tab title="book-search.component.ts" %}
 ```typescript
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -21,8 +21,8 @@ export class BookSearchComponent {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 On obtient l'erreur suivante `No provider for HttpClient!` car le service `HttpClient` n'est pas encore [Tree-Shakable](../dependency-injection/tree-shakable-services.md) et il faut donc importer le module associé `HttpClientModule`.
@@ -30,8 +30,8 @@ On obtient l'erreur suivante `No provider for HttpClient!` car le service `HttpC
 
 Etant donné que le service `HttpClient` est stateless, nous pouvons importer le module `HttpClientModule` directement dans notre [Feature Module](../project-structure-and-modules/feature-module.md) `BookModule`.
 
-{% code-tabs %}
-{% code-tabs-item title="book.module.ts" %}
+{% tabs %}
+{% tab title="book.module.ts" %}
 ```typescript
 import { HttpClientModule } from '@angular/common/http';
 
@@ -52,8 +52,8 @@ import { HttpClientModule } from '@angular/common/http';
 export class BookModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## 2. Exécution de la requête
 
@@ -61,8 +61,8 @@ export class BookModule {
 
 Nous pouvons donc récupérer les données par API dans le "lifecycle hook" `ngOnInit`.
 
-{% code-tabs %}
-{% code-tabs-item title="book-search.component.ts" %}
+{% tabs %}
+{% tab title="book-search.component.ts" %}
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -77,15 +77,15 @@ export class BookSearchComponent implements OnInit {
 
     constructor(private _httpClient: HttpClient) {
     }
-    
+
     ngOnInit() {
         this._httpClient.get(this._bookListUrl);
     }
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ### Déclenchement de la requête au `subscribe`
 
@@ -101,8 +101,8 @@ Par défaut, les paramètres `observe` et `responseType` valent respectivement `
 Ces deux paramètres _\(`observe` et `responseType`\)_ peuvent être manipulés pour récupérer l'objet `HttpResponse`, les événements de progression ou le contenu brut d'une "response".
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-search.component.ts" %}
+{% tabs %}
+{% tab title="book-search.component.ts" %}
 ```typescript
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -120,37 +120,37 @@ export class BookSearchComponent implements OnInit {
 
     constructor(private _httpClient: HttpClient) {
     }
-    
+
     ngOnInit() {
         this._httpClient.get(this._bookListUrl)
             .subscribe(googleVolumeListResponse => {
-            
+
                 this.bookCount = googleVolumeListResponse.totalItems;
 
                 // @TODO: this.bookList = ...
-                                                
+
             });
     }
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## 3. Traitement de la "response"
 
 ### "Hint" du type de la "response"
 
 Lors de la compilation, TypeScript ne connait pas le type des données retournées par l'API.  
-Par défaut, **la méthode `get` retourne un objet de type `Observable<Object>`** . C'est à dire que  `googleVolumeListResponse` est de type `Object` _\(ouJavaScript Plain Object\)._  
+Par défaut, **la méthode `get` retourne un objet de type `Observable<Object>`** . C'est à dire que `googleVolumeListResponse` est de type `Object` _\(ouJavaScript Plain Object\)._  
 Cela n'est pas bloquant mais on risque de perdre l'aide du compilateur et commettre des erreurs.
 
 Les méthodes de la classe `HttpClient` sont des méthodes génériques et il est donc **possible de contrôler leur type de retour**.
 
 Ainsi, avec l'exemple ci-dessous :
 
-{% code-tabs %}
-{% code-tabs-item title="google-volume-list-response.ts" %}
+{% tabs %}
+{% tab title="google-volume-list-response.ts" %}
 ```typescript
 export interface GoogleVolumeListResponse {
     totalItems: number;
@@ -159,21 +159,21 @@ export interface GoogleVolumeListResponse {
             title: string;
         }
     }>;
-} 
+}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-search.component.ts" %}
+{% tabs %}
+{% tab title="book-search.component.ts" %}
 ```typescript
 this._httpClient.get<GoogleVolumeListResponse>(url)
     .subscribe(googleVolumeListResponse => {
         this.bookCount = googleVolumeListResponse.totalItem;
     });
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 nous obtenons l'erreur suivante :
 
@@ -188,7 +188,7 @@ A titre d'exemple, si l'API renvoie le JSON suivant : **`{"totalItems": "oups!"}
 {% endhint %}
 
 {% hint style="info" %}
-Si vous disposez d'une spécification OpenAPI _\(Swagger\)_ de votre API, __pensez à générer ces types avec **Swagger Codegen** [https://swagger.io/swagger-codegen/](https://swagger.io/swagger-codegen/) ou directement depuis **Swagger Online Editor** [https://editor.swagger.io/](https://editor.swagger.io/).
+Si vous disposez d'une spécification OpenAPI _\(Swagger\)_ de votre API, \_\_pensez à générer ces types avec **Swagger Codegen** [https://swagger.io/swagger-codegen/](https://swagger.io/swagger-codegen/) ou directement depuis **Swagger Online Editor** [https://editor.swagger.io/](https://editor.swagger.io/).
 {% endhint %}
 
 ### Transformation de la "response"
@@ -197,8 +197,8 @@ Pour éviter les problèmes décrits précédemment, il est préférable d'**év
 
 Nous allons donc **transformer la "response" en une entité associée à notre "feature"**.
 
-{% code-tabs %}
-{% code-tabs-item title="book-search.component.ts" %}
+{% tabs %}
+{% tab title="book-search.component.ts" %}
 ```typescript
 export interface GoogleVolumeListResponse {
     totalItems: number;
@@ -238,8 +238,8 @@ export class BookSearchComponent implements OnInit {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ### Attention au type de retour
 

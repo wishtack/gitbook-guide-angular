@@ -10,16 +10,16 @@ De la même façon que les [Inputs](input.md) permettent de communiquer des donn
 
 Nous avons inscrits l'expression `onRate($event)` comme "listener" de l'événement `rate`.
 
-{% code-tabs %}
-{% code-tabs-item title="Sous le capot" %}
+{% tabs %}
+{% tab title="Sous le capot" %}
 ```typescript
 bookPreviewComponent.rate
     .subscribe((rating) => {
         this.onRate(rating);
     });
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Remarquez la similarité avec l'[Event Binding](../composants/event-binding.md) sur des événements DOM.
@@ -29,14 +29,10 @@ Remarquez la similarité avec l'[Event Binding](../composants/event-binding.md) 
 <div (drop)="onDrop($event)"></div>
 ```
 
-{% code-tabs %}
-{% code-tabs-item title="Sous le capot" %}
 ```typescript
 button.addEventListener('click', () => this.buy());
 div.addEventListener('drop', (dropEvent) => this.onDrop(dropEvent));
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 {% endhint %}
 
 {% hint style="warning" %}
@@ -47,21 +43,21 @@ Contrairement aux [Inputs](input.md), si l'"output" n'est pas déclaré correcte
 
 En déclarant simplement la propriété `rate` sur le composant `book-preview` :
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.ts" %}
+{% tabs %}
+{% tab title="book-preview.component.ts" %}
 ```typescript
 ...
 export class BookPreviewComponent {
     rate;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ... il ne se passe rien mais par analogie avec les [Inputs](input.md), il faut ajouter le décorateur `@Output()` :
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.ts" %}
+{% tabs %}
+{% tab title="book-preview.component.ts" %}
 ```typescript
 import { Output } from '@angular/core';
 
@@ -70,8 +66,8 @@ export class BookPreviewComponent {
     @Output() rate;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ... et nous remarquons alors une erreur très intéressante :
 
@@ -85,15 +81,15 @@ Comme indiqué précédemment, avec l'[Event Binding](../composants/event-bindin
 
 Il faut donc initialiser la propriété. Nous pourrions initialiser la propriété avec n'importe quel `Observable` mais dans la pratique nous utiliserons la classe Angular `EventEmitter` _\(qui hérite de la classe Subject d'RxJS qui elle même hérite de la classe `Observable` d'RxJS\)_.
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.ts" %}
+{% tabs %}
+{% tab title="book-preview.component.ts" %}
 ```typescript
 export class BookPreviewComponent {
     @Output() rate = new EventEmitter();
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="success" %}
 `EventEmitter` est une classe générique et il est recommandé de la typer pour éviter d'émettre des valeurs du mauvais type par erreur ou plus simplement pour indiquer à l'utilisateur du composant le type de données émises par l'"Output" dès la première lecture.
@@ -109,35 +105,33 @@ Faites attention à bien importer la bonne classe `EventEmitter`.
 
 ![Attention &#xE0; bien importer le bon \`EventEmitter\`](../../.gitbook/assets/import-the-right-event-emitter.png)
 
-
-
 ## 4. Emission de valeurs
 
 Comme son nom l'indique, un `EventEmitter` permet d'émettre des valeurs. Il peut donc être utilisé n'importe où dans la classe `BookPreviewComponent` pour remonter des valeurs au composant parent via la méthode `emit`.
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.ts" %}
+{% tabs %}
+{% tab title="book-preview.component.ts" %}
 ```typescript
 export class BookPreviewComponent {
 
     @Output() rate = new EventEmitter<number>();
-    
+
     iLoveIt() {
         this.rate.emit(5);
     }
-    
+
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.html" %}
+{% tabs %}
+{% tab title="book-preview.component.html" %}
 ```markup
 <button (click)="iLoveIt()">I LOVE IT</button>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ![](../../.gitbook/assets/component-interaction-input-output.jpg)
 

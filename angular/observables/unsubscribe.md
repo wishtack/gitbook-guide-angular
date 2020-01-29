@@ -1,6 +1,6 @@
 # Unsubscribe ⚠️
 
-La méthode `subscribe` retourne un objet de type `Subscription`. 
+La méthode `subscribe` retourne un objet de type `Subscription`.
 
 ```typescript
 import { interval } from 'rxjs';
@@ -14,7 +14,7 @@ const subscription = data$.subscribe({
 });
 ```
 
-Cet  objet sert principalement à se désinscrire d'un `Observable`  via sa méthode `unsubscribe`.
+Cet objet sert principalement à se désinscrire d'un `Observable` via sa méthode `unsubscribe`.
 
 ```typescript
 subscription.unsubscribe();
@@ -41,7 +41,7 @@ Dans certains cas, nous préférons l'utilisation du "pipe" `async` que nous ver
 
 [https://medium.com/@wishtack/rx-scavenger-the-rxjs-garbage-collector-b050099a00ea](https://medium.com/@wishtack/rx-scavenger-the-rxjs-garbage-collector-b050099a00ea)
 
-{% embed url="https://medium.com/@wishtack/rx-scavenger-the-rxjs-garbage-collector-b050099a00ea" %}
+{% embed url="https://medium.com/@wishtack/rx-scavenger-the-rxjs-garbage-collector-b050099a00ea" caption="" %}
 
 [Rx-Scavenger](https://github.com/wishtack/wishtack-steroids/tree/master/packages/rx-scavenger) est un "Garbage Collector" de Subscription RxJS pour Angular.
 
@@ -60,14 +60,14 @@ import { Scavenger } from '@wishtack/rx-scavenger';
     ...
 })
 export class WeatherComponent implements OnDestroy, OnInit {
-    
+
     private _scavenger = new Scavenger(this);
-    
+
     constructor(private _weatherStation: WeatherStation) {
     }
-    
+
     ngOnInit() {
-        
+
         this._weatherStation
             .getWeather('Lyon')
             .pipe(
@@ -76,12 +76,12 @@ export class WeatherComponent implements OnDestroy, OnInit {
             .subscribe(weather => {
                 ...
             });
-        
+
     }
-    
+
     ngOnDestroy() {
     }
-    
+
 }
 ```
 

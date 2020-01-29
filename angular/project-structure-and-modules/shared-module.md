@@ -4,8 +4,8 @@ Certains modules sont utilisés par quasiment tous les composants de l'applicati
 
 Il est courant de factoriser ces imports en rassemblant toutes ces dépendances dans un module `SharedModule` importé par quasiment tous les autres modules de l'application.
 
-{% code-tabs %}
-{% code-tabs-item title="src/app/shared/shared.module.ts" %}
+{% tabs %}
+{% tab title="src/app/shared/shared.module.ts" %}
 ```typescript
 @NgModule({
     imports: SharedModule.MODULE_LIST,
@@ -21,8 +21,8 @@ export class SharedModule {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="danger" %}
 Attention à ne pas trop surcharger ce module et en faire un "God Module".

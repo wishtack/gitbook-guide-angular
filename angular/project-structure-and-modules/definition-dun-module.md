@@ -14,10 +14,9 @@ Un module Angular est un mécanisme permettant de :
 
 Un module Angular est défini simplement avec une classe _\(généralement vide\)_ et le décorateur `NgModule`.
 
-{% code-tabs %}
-{% code-tabs-item title="src/app/book/book.module.ts" %}
+{% tabs %}
+{% tab title="src/app/book/book.module.ts" %}
 ```typescript
-
 import { NgModule } from '@angular/core';
 
 import { PictureModule } from '../picture/picture.module';
@@ -38,8 +37,8 @@ import { BookPreviewComponent } from './book-preview/book-preview.component';
 export class BookModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## `declarations`
 
@@ -59,8 +58,8 @@ Pour exporter un composant lors de sa génération par Angular CLI, il faut ajou
 Pour éviter de lutter contre les oublis, une astuce consiste à **ajouter un "script" à votre fichier `package.json`** pour **unifier la façon de générer vos composants**.
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="package.json" %}
+{% tabs %}
+{% tab title="package.json" %}
 ```javascript
 {
     "scripts": {
@@ -68,8 +67,8 @@ Pour éviter de lutter contre les oublis, une astuce consiste à **ajouter un "s
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ```bash
 yarn generate:component book/book-preview
@@ -101,8 +100,6 @@ Evitez les sous-arborescences _\(définition de modules à l'intérieur d'autres
 
 **Flat is better than nested.**
 {% endhint %}
-
-
 
 ## Angular CLI - Generate Module
 

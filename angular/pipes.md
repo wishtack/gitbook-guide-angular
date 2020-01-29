@@ -9,7 +9,7 @@ Les `Pipe`s sont des **filtres utilisables directement depuis la vue afin de tra
 La syntaxe des `Pipe`s est simplement inspirée des `Pipe`s des shell UNIX que l'on retrouve dans de nombreux systèmes de templating.
 
 ```markup
-<div>{{ user.firstName | lowercase }}</div>               
+<div>{{ user.firstName | lowercase }}</div>
 ```
 
 ### Paramètres
@@ -49,8 +49,8 @@ Pour créer un `Pipe` personnalisé, il faut :
 
 Le `Pipe` `price` ci-dessous permet d'afficher le prix d'un produit représenté avec la classe `Price` suivante :
 
-{% code-tabs %}
-{% code-tabs-item title="price.ts" %}
+{% tabs %}
+{% tab title="price.ts" %}
 ```typescript
 export class Price {
 
@@ -66,11 +66,11 @@ export class Price {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="price.pipe.ts" %}
+{% tabs %}
+{% tab title="price.pipe.ts" %}
 ```typescript
 @Pipe({
     name: 'price'
@@ -91,11 +91,11 @@ export class PricePipe implements PipeTransform {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="price.module.ts" %}
+{% tabs %}
+{% tab title="price.module.ts" %}
 ```typescript
 @NgModule({
     declarations: [
@@ -108,13 +108,13 @@ export class PricePipe implements PipeTransform {
 export class PriceModule {
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Le `Pipe` peut alors être utilisé dans **n'importe quel composant contenu dans un module qui importe le module** **`PriceModule`** :
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.ts" %}
+{% tabs %}
+{% tab title="book-preview.component.ts" %}
 ```typescript
 export class BookPreviewComponent {
     bookPrice = new Price({
@@ -124,16 +124,16 @@ export class BookPreviewComponent {
     });
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-preview.component.html" %}
+{% tabs %}
+{% tab title="book-preview.component.html" %}
 ```markup
 <div>{{ bookPrice | price }}</div>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 On obtient alors le résultat suivant :
 
@@ -147,8 +147,8 @@ Le **constructeur d'un `Pipe`** peut être utiliser pour **injecter des dépenda
 
 Dans notre cas, nous souhaitons injecter le `Pipe` `currency` afin de **profiter de ses fonctionnalités tout en simplifiant son utilisation**.
 
-{% code-tabs %}
-{% code-tabs-item title="price.pipe.ts" %}
+{% tabs %}
+{% tab title="price.pipe.ts" %}
 ```typescript
 @Pipe({
     name: 'price'
@@ -172,8 +172,8 @@ export class PricePipe implements PipeTransform {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 Malheureusement, Angular ne définit pas nativement de `providers` pour les `Pipe`s.
@@ -238,6 +238,4 @@ Nativement, seuls les `Pipe`s suivant sont impurs :
 
 L'implémentation de `Pipe`s impurs est un "code smell" qui révèle généralement des problèmes de conception.
 {% endhint %}
-
-
 

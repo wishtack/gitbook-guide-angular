@@ -6,8 +6,8 @@ Les constructeurs des "controls" _\(`FormControl`, `FormGroup` et `FormArray`\)_
 
 Les "validators" natifs d'Angular sont regroupés sous forme de méthodes statiques das la classe `Validators`.
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.ts" %}
+{% tabs %}
+{% tab title="book-form.component.ts" %}
 ```typescript
 export class BookFormComponent {
 
@@ -21,11 +21,11 @@ export class BookFormComponent {
     submitBook() {
         console.log(this.bookForm.value);
     }
-    
+
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 Remarquez que l'ajout du "validator" ne change pas le comportement du composant : **la méthode `submitBook` continue à être appelée bien que la contrainte de validation ne soit pas respectée.**
@@ -42,41 +42,41 @@ Les "controls" disposent d'une série de **propriétés et de méthodes permetta
 
 ### Exemple de désactivation du "submit"
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.html" %}
+{% tabs %}
+{% tab title="book-form.component.html" %}
 ```markup
 <button
     [disabled]="!bookForm.valid"
     type="submit">SUBMIT</button>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## `hasError` & `getError`
 
 Les méthodes `hasError` et `getError` sont deux méthodes "helpers" permettant d'**accéder plus facilement** aux informations d'erreur d'un "control".
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.html" %}
+{% tabs %}
+{% tab title="book-form.component.html" %}
 ```markup
 <div *ngIf="shouldShowTitleRequiredError()">Title is required.</div>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.ts" %}
+{% tabs %}
+{% tab title="book-form.component.ts" %}
 ```typescript
 shouldShowTitleRequiredError() {
 
     const title = this.bookForm.controls.title;
-    
+
     return title.touched && title.hasError('required');
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="danger" %}
 Préférez les méthodes `hasError` et `getError` aux opérateurs ternaires _\(`title.errors ? title.errors.required : null`\)_ !
@@ -86,8 +86,8 @@ Préférez les méthodes `hasError` et `getError` aux opérateurs ternaires _\(`
 
 Un "validator" est une fonction qui est **appelée à chaque changement de la valeur du "control"** afin d'en vérifier la validité. Si la valeur est valide, le "control" retourne **`null`** ou un **objet d'erreur** dans le cas contraire.
 
-{% code-tabs %}
-{% code-tabs-item title="valid-book-title.validator.ts" %}
+{% tabs %}
+{% tab title="valid-book-title.validator.ts" %}
 ```typescript
 import { ValidatorFn } from '@angular/forms';
 ​
@@ -108,11 +108,11 @@ export const validBookTitle: ValidatorFn = (control) => {
 
 };
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.ts" %}
+{% tabs %}
+{% tab title="book-form.component.ts" %}
 ```typescript
 bookForm = new FormGroup({
     title: new FormControl(null, [
@@ -122,8 +122,8 @@ bookForm = new FormGroup({
     description: new FormControl()
 });
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Les informations d'erreur \(`reason` et `value`\) sont alors accessibles grâce à la méthode `getError`.
@@ -142,8 +142,8 @@ if (error != null) {
 Tels que le "validator" `minLength`, **certains "validators" ont besoin de paramètres** pour personnaliser leur comportement.  
 Dans ce cas, il suffit d'implémenter une **"factory" de "validators"** _\(i.e. : une fonction qui retourne des fonctions de type "validator"\)_.
 
-{% code-tabs %}
-{% code-tabs-item title="valid-pattern.validator.ts" %}
+{% tabs %}
+{% tab title="valid-pattern.validator.ts" %}
 ```typescript
 export type ValidPattern = (args: {blacklistedPatternList: RegExp[]}) => ValidatorFn;
 
@@ -159,13 +159,13 @@ const validPattern: ValidPattern = ({blacklistedPatternList}) => {
 
 };
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Ou en utilisant **le "currying" des** [**Arrow Functions**](../../../ecmascript-6+/arrow-functions.md) :
 
-{% code-tabs %}
-{% code-tabs-item title="valid-pattern.validator.ts" %}
+{% tabs %}
+{% tab title="valid-pattern.validator.ts" %}
 ```typescript
 export type ValidPattern = (args: {blacklistedPatternList: RegExp[]}) => ValidatorFn;
 
@@ -191,13 +191,13 @@ const validPattern: ValidPattern = ({blacklistedPatternList}) => control => {
 
 };
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Le "validator" est alors personnalisé à l'utilisation :
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.ts" %}
+{% tabs %}
+{% tab title="book-form.component.ts" %}
 ```typescript
 bookForm = new FormGroup({
     title: new FormControl(null, [
@@ -213,8 +213,8 @@ bookForm = new FormGroup({
     description: new FormControl()
 });
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Même l'erreur contient alors des informations personnalisées :
@@ -249,8 +249,8 @@ new FormControl(null, {
 
 Les "validators" _\(et plus particulièrement les "validators" asynchrones\)_ ont parfois **besoin d'accéder aux services** _\(au sens Angular\)_ mais sans [Dependency Injection](../../dependency-injection/) pour les "validators", l'astuce consiste à **implémenter la "factory" du "validator" dans un service dédié afin de profiter de la "Dependency Injection"**.
 
-{% code-tabs %}
-{% code-tabs-item title="valid-pattern-factory.ts" %}
+{% tabs %}
+{% tab title="valid-pattern-factory.ts" %}
 ```typescript
 @Injectable({
     providedIn: 'root'
@@ -274,11 +274,11 @@ export class ValidPatternFactory {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="book-form.component.ts" %}
+{% tabs %}
+{% tab title="book-form.component.ts" %}
 ```typescript
 export class BookFormComponent {
 
@@ -293,11 +293,11 @@ export class BookFormComponent {
             description: new FormControl()
         });
     }
-    
+
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ### Annulation des Observables
 

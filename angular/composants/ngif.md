@@ -8,49 +8,49 @@ L'une de ces directives les plus utilisées est le `ngIf`.
 
 Si l'expression associée à la directive est "falsy" alors l'élément et son contenu sont retirés du DOM _\(ou jamais ajoutés\)._
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.html" %}
+{% tabs %}
+{% tab title="src/app.component.html" %}
 ```markup
 <button *ngIf="isAvailable">BUY</button>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.ts" %}
+{% tabs %}
+{% tab title="src/app.component.ts" %}
 ```typescript
 ...
 export class AppComponent {
     isAvailable = false;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## \*ngIf vs "safe navigation operator"
 
 Les expressions utilisées à l'intérieur ne sont donc jamais évaluées et dans certains cas cela évite certaines erreurs.
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.html" %}
+{% tabs %}
+{% tab title="src/app.component.html" %}
 ```markup
 <div>
     <span>{{ book.name }}</span>
 </div>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.ts" %}
+{% tabs %}
+{% tab title="src/app.component.ts" %}
 ```typescript
 ...
 export class AppComponent {
     book = null;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ```text
 TypeError: Cannot read property 'name' of undefined
@@ -62,27 +62,27 @@ Il suffit alors d'utiliser `ngIf` pour retirer tout le bloc _\(si cela est néce
 Si le cas ne doit jamais se produire alors il vaut mieux déclencher une erreur bien bruyante plutôt que de camoufler le problème.
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.html" %}
+{% tabs %}
+{% tab title="src/app.component.html" %}
 ```markup
 <div *ngIf="book">
     <span>{{ book.name }}</span>
 </div>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 Angular propose également une opérateur de "safe navigation" qu'il vaut mieux éviter car les éléments sont présents dans le DOM mais vides et cela peut avoir des impacts sur l'affichage et le styling.
 
-{% code-tabs %}
-{% code-tabs-item title="src/app.component.html" %}
+{% tabs %}
+{% tab title="src/app.component.html" %}
 ```markup
 <div>
     <span>{{ book?.name }}</span>
 </div>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## `switch / case` & `if / then / else`
 
@@ -102,6 +102,4 @@ Chez Wishtack, nous considérons l'usage de "`if / else`" et de "`switch / case`
 ## Apprenez à unit-tester vos applications Angular avec nos recettes de dev sur Marmicode
 
 {% embed url="https://marmicode.fr" caption="Marmicode" %}
-
-
 

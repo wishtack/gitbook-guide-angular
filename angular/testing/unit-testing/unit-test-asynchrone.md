@@ -48,12 +48,13 @@ Par défaut, la variable `jasmine.DEFAULT_TIMEOUT_INTERVAL` vaut **5 secondes**.
 
 **N'augmentez jamais cette valeur !**
 
-Un test unitaire doit être F.I.R.S.T. :  
-- **Fast**  
-- **Independent**  
-- **Repeatable**  
-- **Self-Validating**  
-- **Thorough & Timely**
+Un test unitaire doit être F.I.R.S.T. :
+
+* **Fast**  
+* **Independent**  
+* **Repeatable**  
+* **Self-Validating**  
+* **Thorough & Timely**
 {% endhint %}
 
 La fonction `done` doit être **appelée explicitement** à la fin de la "spec".
@@ -177,10 +178,10 @@ Cette approche a pour avantage :
 
 ### Limitations
 
-Testons cette station météo capricieuse : 
+Testons cette station météo capricieuse :
 
-{% code-tabs %}
-{% code-tabs-item title="picky-weather-station.ts" %}
+{% tabs %}
+{% tab title="picky-weather-station.ts" %}
 ```typescript
 import { Observable, timer } from 'rxjs';
 import { filter, map, mapTo } from 'rxjs/operators';
@@ -200,11 +201,11 @@ class PickyWeatherStation {
 
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
-{% code-tabs %}
-{% code-tabs-item title="picky-weather-station.spec.ts" %}
+{% tabs %}
+{% tab title="picky-weather-station.spec.ts" %}
 ```typescript
 describe('PickyWeatherStation', () => {
 
@@ -225,8 +226,8 @@ describe('PickyWeatherStation', () => {
 
 });
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 **Bien que l'assertion `expect(temperature).toEqual(-10)` soit erronée, la "spec" réussit.**
 
@@ -248,9 +249,9 @@ Elle utilise également une "Zone" _\(Cf._ [_Zone.JS_](https://github.com/angula
 
 ```typescript
 import { fakeAsync } from '@angular/core/testing';
- 
+
 ...
-    
+
     it('should give temperature', fakeAsync(() => {
 
         weatherStation.getTemperature('Paris')
@@ -328,7 +329,7 @@ it('should trigger next tick', fakeAsync(() => {
     const duration = flush();
 
     expect(valueList.join('')).toEqual('WISHTACK');
-    
+
     expect(duration).toEqual(2000);
 
 }));
@@ -358,7 +359,7 @@ Le test échoue alors car la "callback" n'a pas été appelée et `temperature` 
 {% hint style="warning" %}
 Les méthodes `fakeAsync`, `tick` et `flush` sont généralement stables mais tout de même considérées comme expérimentales.
 
-En effet, dans le dernier exemple, la fonction `flush` ne fonctionne pas car il existe des **incompatibilités avec certains `Observable`s et opérateurs RxJS** manipulant le timer _\(par manque de Monkey Patching ?\),_ Cf. __[https://github.com/angular/angular/issues/10127](https://github.com/angular/angular/issues/10127)_._
+En effet, dans le dernier exemple, la fonction `flush` ne fonctionne pas car il existe des **incompatibilités avec certains `Observable`s et opérateurs RxJS** manipulant le timer _\(par manque de Monkey Patching ?\),_ Cf. _\__[_https://github.com/angular/angular/issues/10127_](https://github.com/angular/angular/issues/10127).\_
 {% endhint %}
 
 #### Detection des effets de bord

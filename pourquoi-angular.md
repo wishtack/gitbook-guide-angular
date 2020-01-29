@@ -115,6 +115,12 @@ Chaque version est **maintenue pendant 18 mois** et reste compatible avec les fo
 
 [https://angular.io/guide/releases](https://angular.io/guide/releases)
 
+### Guide de mise à jour
+
+[https://update.angular.io/](https://update.angular.io/)
+
+{% embed url="https://update.angular.io/" %}
+
 ### A propos d'AngularJS
 
 AngularJS correspond à la version 1.x Il ne faut pas confondre AngularJS et Angular. Bien que le numéro de version 2.x semblerait indiquer une continuité avec la version 1.x de Angular, il s'agit d'une refonte intégrale du Framework.
