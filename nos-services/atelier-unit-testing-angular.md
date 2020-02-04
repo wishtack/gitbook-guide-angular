@@ -37,7 +37,7 @@ Lors de ce workshop, vous apprendrez à :
 
 **Paris** : [https://angular-unit-testing-fondamentaux-paris.eventbrite.com/](https://angular-unit-testing-fondamentaux-paris.eventbrite.com)
 
-{% embed url="https://angular-unit-testing-fondamentaux-paris.eventbrite.com" %}
+{% embed url="https://angular-unit-testing-fondamentaux-paris.eventbrite.com" caption="Paris" %}
 
 ...ou contactez-nous sur [camijote@marmicode.fr](mailto:camijote@marmicode.fr) et appelez-nous au [+33 4 26 83 61 92](tel:+33426836192) pour toutes vos questions.
 
