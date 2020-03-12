@@ -170,7 +170,7 @@
 
 ## Stay Tuned
 
-* [💻Apprenez l'Unit-Testing avec un GDE](https://guide-angular.wishtack.io/nos-services/atelier-unit-testing-angular)
+* [🎁-20% sur nos workshops avec le code GUIDEANGULAR](https://angular-unit-testing-fondamentaux-paris.eventbrite.com?discount=GUIDEANGULAR)
 * [🐦Suivez-moi !](https://twitter.com/intent/follow?screen_name=yjaaidi)
 * [📺Cours Vidéo](https://recettes.marmicode.fr/)
 * [📬Newsletter](http://eepurl.com/gyhwKP)
