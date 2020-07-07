@@ -170,7 +170,7 @@
 
 ## Stay Tuned
 
-* [🎁-20% sur nos workshops avec le code GUIDEANGULAR](https://angular-unit-testing-fondamentaux-paris.eventbrite.com?discount=GUIDEANGULAR)
+* [🎁-20% sur nos workshops avec le code GUIDEANGULAR](https://marmicode.eventbrite.com)
 * [🐦Suivez-moi !](https://twitter.com/intent/follow?screen_name=yjaaidi)
 * [📺Cours Vidéo](https://recettes.marmicode.fr/)
 * [📬Newsletter](http://eepurl.com/gyhwKP)
