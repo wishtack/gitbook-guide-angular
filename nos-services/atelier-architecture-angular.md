@@ -8,26 +8,12 @@
 
 Contactez-nous sur [contact@wishtack.com](mailto:contact@wishtack.com) ou appelez-nous au [+33 4 26 83 61 92](tel:+33426836192) pour toutes vos questions et réservations.
 
-```javascript
-{
-    durée: 1 jour,
-    prix: 277€ HT / personne,
-    repasInclus: true
-}
-```
-
 ### Déroulement de la journée
 
 * **9h30** : Début de l'atelier.
 * **12h30 - 14h** : Déjeuner.
 * **17h30** : Fin de l'atelier
 * **17h30 - 19h** : Apéro-discute.
-
-### Le Lieu
-
-Si les conditions le permettent, la formation aura lieu sur une péniche à Lyon.
-
-![P&#xE9;niche Formation Angular Lyon](../.gitbook/assets/peniche-lyon.png)
 
 ## Prérequis
 

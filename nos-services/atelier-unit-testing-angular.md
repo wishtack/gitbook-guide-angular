@@ -23,21 +23,9 @@ Lors de ce workshop, vous apprendrez à :
 
 ## Réservation / Information
 
-```javascript
-{
-    durée: 1 jour,
-    prix: à partir de 197€ HT / personne,
-    repasOffert: true
-}
-```
+https://marmicode.eventbrite.fr
 
-**Lyon** : [https://angular-unit-testing-fondamentaux-lyon.eventbrite.com/](https://angular-unit-testing-fondamentaux-lyon.eventbrite.com/)
-
-{% embed url="https://angular-unit-testing-fondamentaux-lyon.eventbrite.com/" caption="Lyon" %}
-
-**Paris** : [https://angular-unit-testing-fondamentaux-paris.eventbrite.com/](https://angular-unit-testing-fondamentaux-paris.eventbrite.com)
-
-{% embed url="https://angular-unit-testing-fondamentaux-paris.eventbrite.com" caption="Paris" %}
+{% embed url="https://marmicode.eventbrite.fr" %}
 
 ...ou contactez-nous sur [camijote@marmicode.fr](mailto:camijote@marmicode.fr) et appelez-nous au [+33 4 26 83 61 92](tel:+33426836192) pour toutes vos questions.
 
