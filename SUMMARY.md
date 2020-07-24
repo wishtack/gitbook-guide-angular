@@ -170,7 +170,7 @@
 
 ## Stay Tuned
 
-* [🎁-20% sur nos workshops avec le code GUIDEANGULAR](https://marmicode.eventbrite.com)
+* [🎁-20% sur nos workshops avec le code GUIDEANGULAR](https://bit.ly/marmicode-eventbrite-fr)
 * [🐦Suivez-moi !](https://twitter.com/intent/follow?screen_name=yjaaidi)
 * [📺Cours Vidéo](https://recettes.marmicode.fr/)
 * [📬Newsletter](http://eepurl.com/gyhwKP)
