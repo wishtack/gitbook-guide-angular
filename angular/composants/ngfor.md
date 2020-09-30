@@ -50,7 +50,9 @@ Il est possible de récupérer d'autre informations telles que l'index de l'él�
 
 ![Exemple ngFor](../../.gitbook/assets/ng-for-example.png)
 
-## Apprenez à unit-tester vos applications Angular avec nos recettes de dev sur Marmicode
+## Prochains workshops : 20% de réduction avec le code GUIDEANGULAR
 
-{% embed url="https://marmicode.fr/" caption="Marmicode" %}
+{% embed url="https://www.eventbrite.com/e/billets-angular-unit-testing-workshop-fondamentaux-tdd-francais-112607387728" caption="Angular Unit-Testing Workshop - Fondamentaux & TDD" %}
+
+{% embed url="https://www.eventbrite.com/e/billets-angular-unit-testing-workshop-composants-mocks-francais-112573510400" caption="Angular Unit-Testing Workshop - Composants & Mocks" %}
 
