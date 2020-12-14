@@ -50,9 +50,9 @@ Il est possible de récupérer d'autre informations telles que l'index de l'él�
 
 ![Exemple ngFor](../../.gitbook/assets/ng-for-example.png)
 
-## Prochains workshops : 20% de réduction avec le code GUIDEANGULAR
+## Prochains workshops : 10% de réduction avec le code GUIDEANGULAR
 
-{% embed url="https://www.eventbrite.com/e/billets-angular-unit-testing-workshop-fondamentaux-tdd-francais-112607387728" caption="Angular Unit-Testing Workshop - Fondamentaux & TDD" %}
+{% embed url="https://www.eventbrite.com/e/angular-unit-testing-workshop-fondamentaux-tdd-francais-tickets-132818877839" caption="Angular Unit-Testing Workshop - Fondamentaux & TDD" %}
 
-{% embed url="https://www.eventbrite.com/e/billets-angular-unit-testing-workshop-composants-mocks-francais-112573510400" caption="Angular Unit-Testing Workshop - Composants & Mocks" %}
+
 
