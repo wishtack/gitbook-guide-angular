@@ -54,5 +54,9 @@ Il est possible de récupérer d'autre informations telles que l'index de l'él�
 
 {% embed url="https://www.eventbrite.com/e/angular-unit-testing-workshop-fondamentaux-tdd-francais-tickets-132818877839" caption="Angular Unit-Testing Workshop - Fondamentaux & TDD" %}
 
+## Pour plus d'actus Angular, JavaScript et Web, suivez-moi sur Twitter !
+
+{% embed url="https://twitter.com/yjaaidi" %}
+
 
 
