@@ -110,6 +110,10 @@ L'équipe Angular s'engage à publier une **nouvelle version majeure tous les 6 
 * **Angular 6** : 3 mai 2018 _\(Angular CLI, Angular Material, Flex Layout etc... synchronisent leurs versions également\)_
 * **Angular 7** : 18 octobre 2018
 * **Angular 8** : 28 mai 2019
+* **Angular 9** : 2 février 2020
+* **Angular 10** : 24 juin 2020
+* **Angular 11** : **11-11**-2020
+* **Angular 12** :  ~mai 2021
 
 Chaque version est **maintenue pendant 18 mois** et reste compatible avec les fonctionnalités de la version précédente qui deviennent dépréciées.
 
