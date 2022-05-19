@@ -117,7 +117,7 @@ export AppComponent {
 ```typescript
 ...
 export class BookPreviewComponent {
-    book: Book;
+    @Input() book: Book;
 }
 ```
 {% endtab %}
